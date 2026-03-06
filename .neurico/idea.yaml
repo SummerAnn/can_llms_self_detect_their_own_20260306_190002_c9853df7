@@ -1,0 +1,33 @@
+idea:
+  title: Can LLMs Self-Detect Their Own Hallucinations?
+  domain: artificial_intelligence
+  hypothesis: LLMs can identify their own hallucinated outputs at above-chance rates
+    when asked to verify their previous responses, but performance degrades for plausible-sounding
+    hallucinations
+  background:
+    description: Hallucination detection typically relies on external verification.
+      If LLMs can reliably self-detect hallucinations, this enables cheap filtering
+      pipelines without external knowledge bases.
+  methodology:
+    approach: Generate responses containing known hallucinations, then ask the same
+      model to verify its own outputs
+    steps:
+    - Collect 100 factual questions with verified ground truth answers
+    - Generate LLM responses, categorize as correct, obvious hallucination, or plausible
+      hallucination
+    - Ask the same model to verify each response with confidence scores
+    - Measure self-detection accuracy across hallucination types
+    - Compare self-detection vs cross-model detection
+    baselines:
+    - Random detection baseline
+    - Cross-model verification (Model A checks Model B)
+    metrics:
+    - Self-detection precision and recall
+    - Detection accuracy by hallucination plausibility
+    - Calibration of confidence scores
+  metadata:
+    idea_id: can_llms_self_detect_their_own_20260306_190002_c9853df7
+    created_at: '2026-03-06T19:00:02.052440'
+    status: submitted
+    github_repo_name: can_llms_self_detect_their_own_20260306_190002_c9853df7
+    github_repo_url: https://github.com/SummerAnn/can_llms_self_detect_their_own_20260306_190002_c9853df7
