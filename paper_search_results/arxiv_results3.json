@@ -1,0 +1,632 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2506.09886v2",
+    "arxiv_id": "2506.09886v2",
+    "title": "Probabilistic distances-based hallucination detection in LLMs with RAG",
+    "authors": [
+      "Rodion Oblovatny",
+      "Alexandra Kuleshova",
+      "Konstantin Polev",
+      "Alexey Zaytsev"
+    ],
+    "year": 2025,
+    "abstract": "Detecting hallucinations in large language models (LLMs) is critical for their safety in many applications. Without proper detection, these systems often provide harmful, unreliable answers. In recent years, LLMs have been actively used in retrieval-augmented generation (RAG) settings. However, hallucinations remain even in this setting, and while numerous hallucination detection methods have been proposed, most approaches are not specifically designed for RAG systems. To overcome this limitation, we introduce a hallucination detection method based on estimating the distances between the distr",
+    "pdf_url": "https://arxiv.org/pdf/2506.09886v2",
+    "query": "self-RAG self-reflection hallucination detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2310.11511v1",
+    "arxiv_id": "2310.11511v1",
+    "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+    "authors": [
+      "Akari Asai",
+      "Zeqiu Wu",
+      "Yizhong Wang",
+      "Avirup Sil",
+      "Hannaneh Hajishirzi"
+    ],
+    "year": 2023,
+    "abstract": "Despite their remarkable capabilities, large language models (LLMs) often produce responses containing factual inaccuracies due to their sole reliance on the parametric knowledge they encapsulate. Retrieval-Augmented Generation (RAG), an ad hoc approach that augments LMs with retrieval of relevant knowledge, decreases such issues. However, indiscriminately retrieving and incorporating a fixed number of retrieved passages, regardless of whether retrieval is necessary, or passages are relevant, diminishes LM versatility or can lead to unhelpful response generation. We introduce a new framework c",
+    "pdf_url": "https://arxiv.org/pdf/2310.11511v1",
+    "query": "self-RAG self-reflection hallucination detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2506.22486v1",
+    "arxiv_id": "2506.22486v1",
+    "title": "Hallucination Detection with Small Language Models",
+    "authors": [
+      "Ming Cheung"
+    ],
+    "year": 2025,
+    "abstract": "Since the introduction of ChatGPT, large language models (LLMs) have demonstrated significant utility in various tasks, such as answering questions through retrieval-augmented generation. Context can be retrieved using a vectorized database, serving as a foundation for LLMs to generate responses. However, hallucinations in responses can undermine the reliability of LLMs in practical applications, and they are not easily detectable in the absence of ground truth, particularly in question-and-answer scenarios. This paper proposes a framework that integrates multiple small language models to veri",
+    "pdf_url": "https://arxiv.org/pdf/2506.22486v1",
+    "query": "self-RAG self-reflection hallucination detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2501.09997v3",
+    "arxiv_id": "2501.09997v3",
+    "title": "Attention-guided Self-reflection for Zero-shot Hallucination Detection in Large Language Models",
+    "authors": [
+      "Qiang Liu",
+      "Xinlong Chen",
+      "Yue Ding",
+      "Bowen Song",
+      "Weiqiang Wang"
+    ],
+    "year": 2025,
+    "abstract": "Hallucination has emerged as a significant barrier to the effective application of Large Language Models (LLMs). In this work, we introduce a novel Attention-Guided SElf-Reflection (AGSER) approach for zero-shot hallucination detection in LLMs. The AGSER method utilizes attention contributions to categorize the input query into attentive and non-attentive queries. Each query is then processed separately through the LLMs, allowing us to compute consistency scores between the generated responses and the original answer. The difference between the two consistency scores serves as a hallucination ",
+    "pdf_url": "https://arxiv.org/pdf/2501.09997v3",
+    "query": "self-RAG self-reflection hallucination detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2507.20836v4",
+    "arxiv_id": "2507.20836v4",
+    "title": "First Hallucination Tokens Are Different from Conditional Ones",
+    "authors": [
+      "Jakob Snel",
+      "Seong Joon Oh"
+    ],
+    "year": 2025,
+    "abstract": "Large Language Models (LLMs) hallucinate, and detecting these cases is key to ensuring trust. While many approaches address hallucination detection at the response or span level, recent work explores token-level detection, enabling more fine-grained intervention. However, the distribution of hallucination signal across sequences of hallucinated tokens remains unexplored. We leverage token-level annotations from the RAGTruth corpus and find that the first hallucinated token is far more detectable than later ones. This structural property holds across models, suggesting that first hallucination ",
+    "pdf_url": "https://arxiv.org/pdf/2507.20836v4",
+    "query": "self-RAG self-reflection hallucination detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2506.00448v1",
+    "arxiv_id": "2506.00448v1",
+    "title": "Fact-Controlled Diagnosis of Hallucinations in Medical Text Summarization",
+    "authors": [
+      "Suhas BN",
+      "Han-Chin Shing",
+      "Lei Xu",
+      "Mitch Strong",
+      "Jon Burnsky"
+    ],
+    "year": 2025,
+    "abstract": "Hallucinations in large language models (LLMs) during summarization of patient-clinician dialogues pose significant risks to patient care and clinical decision-making. However, the phenomenon remains understudied in the clinical domain, with uncertainty surrounding the applicability of general-domain hallucination detectors. The rarity and randomness of hallucinations further complicate their investigation. In this paper, we conduct an evaluation of hallucination detection methods in the medical domain, and construct two datasets for the purpose: A fact-controlled Leave-N-out dataset -- genera",
+    "pdf_url": "https://arxiv.org/pdf/2506.00448v1",
+    "query": "self-RAG self-reflection hallucination detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.03107v1",
+    "arxiv_id": "2512.03107v1",
+    "title": "Detecting AI Hallucinations in Finance: An Information-Theoretic Method Cuts Hallucination Rate by 92%",
+    "authors": [
+      "Mainak Singha"
+    ],
+    "year": 2025,
+    "abstract": "Large language models (LLMs) produce fluent but unsupported answers - hallucinations - limiting safe deployment in high-stakes domains. We propose ECLIPSE, a framework that treats hallucination as a mismatch between a model's semantic entropy and the capacity of available evidence. We combine entropy estimation via multi-sample clustering with a novel perplexity decomposition that measures how models use retrieved evidence. We prove that under mild conditions, the resulting entropy-capacity objective is strictly convex with a unique stable optimum. We evaluate on a controlled financial questio",
+    "pdf_url": "https://arxiv.org/pdf/2512.03107v1",
+    "query": "self-RAG self-reflection hallucination detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.21473v1",
+    "arxiv_id": "2509.21473v1",
+    "title": "Are Hallucinations Bad Estimations?",
+    "authors": [
+      "Hude Liu",
+      "Jerry Yao-Chieh Hu",
+      "Jennifer Yuntong Zhang",
+      "Zhao Song",
+      "Han Liu"
+    ],
+    "year": 2025,
+    "abstract": "We formalize hallucinations in generative models as failures to link an estimate to any plausible cause. Under this interpretation, we show that even loss-minimizing optimal estimators still hallucinate. We confirm this with a general high probability lower bound on hallucinate rate for generic data distributions. This reframes hallucination as structural misalignment between loss minimization and human-acceptable outputs, and hence estimation errors induced by miscalibration. Experiments on coin aggregation, open-ended QA, and text-to-image support our theory.",
+    "pdf_url": "https://arxiv.org/pdf/2509.21473v1",
+    "query": "self-RAG self-reflection hallucination detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.23830v1",
+    "arxiv_id": "2509.23830v1",
+    "title": "Bayesian Mixture-of-Experts: Towards Making LLMs Know What They Don't Know",
+    "authors": [
+      "Albus Yizhuo Li"
+    ],
+    "year": 2025,
+    "abstract": "The Mixture-of-Experts (MoE) architecture has enabled the creation of massive yet efficient Large Language Models (LLMs). However, the standard deterministic routing mechanism presents a significant limitation: its inherent brittleness is a key contributor to model miscalibration and overconfidence, resulting in systems that often do not know what they don't know.\n  This thesis confronts this challenge by proposing a structured \\textbf{Bayesian MoE routing framework}. Instead of forcing a single, deterministic expert selection, our approach models a probability distribution over the routing de",
+    "pdf_url": "https://arxiv.org/pdf/2509.23830v1",
+    "query": "LLM know what they don't know uncertainty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2302.06544v3",
+    "arxiv_id": "2302.06544v3",
+    "title": "Probabilistic Circuits That Know What They Don't Know",
+    "authors": [
+      "Fabrizio Ventola",
+      "Steven Braun",
+      "Zhongjie Yu",
+      "Martin Mundt",
+      "Kristian Kersting"
+    ],
+    "year": 2023,
+    "abstract": "Probabilistic circuits (PCs) are models that allow exact and tractable probabilistic inference. In contrast to neural networks, they are often assumed to be well-calibrated and robust to out-of-distribution (OOD) data. In this paper, we show that PCs are in fact not robust to OOD data, i.e., they don't know what they don't know. We then show how this challenge can be overcome by model uncertainty quantification. To this end, we propose tractable dropout inference (TDI), an inference procedure to estimate uncertainty by deriving an analytical solution to Monte Carlo dropout (MCD) through varian",
+    "pdf_url": "https://arxiv.org/pdf/2302.06544v3",
+    "query": "LLM know what they don't know uncertainty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.09033v1",
+    "arxiv_id": "2510.09033v1",
+    "title": "Large Language Models Do NOT Really Know What They Don't Know",
+    "authors": [
+      "Chi Seng Cheang",
+      "Hou Pong Chan",
+      "Wenxuan Zhang",
+      "Yang Deng"
+    ],
+    "year": 2025,
+    "abstract": "Recent work suggests that large language models (LLMs) encode factuality signals in their internal representations, such as hidden states, attention weights, or token probabilities, implying that LLMs may \"know what they don't know\". However, LLMs can also produce factual errors by relying on shortcuts or spurious associations. These error are driven by the same training objective that encourage correct predictions, raising the question of whether internal computations can reliably distinguish between factual and hallucinated outputs. In this work, we conduct a mechanistic analysis of how LLMs",
+    "pdf_url": "https://arxiv.org/pdf/2510.09033v1",
+    "query": "LLM know what they don't know uncertainty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.13275v2",
+    "arxiv_id": "2401.13275v2",
+    "title": "Can AI Assistants Know What They Don't Know?",
+    "authors": [
+      "Qinyuan Cheng",
+      "Tianxiang Sun",
+      "Xiangyang Liu",
+      "Wenwei Zhang",
+      "Zhangyue Yin"
+    ],
+    "year": 2024,
+    "abstract": "Recently, AI assistants based on large language models (LLMs) show surprising performance in many tasks, such as dialogue, solving math problems, writing code, and using tools. Although LLMs possess intensive world knowledge, they still make factual errors when facing some knowledge intensive tasks, like open-domain question answering. These untruthful responses from the AI assistant may cause significant risks in practical applications. We believe that an AI assistant's refusal to answer questions it does not know is a crucial method for reducing hallucinations and making the assistant truthf",
+    "pdf_url": "https://arxiv.org/pdf/2401.13275v2",
+    "query": "LLM know what they don't know uncertainty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2104.04167v2",
+    "arxiv_id": "2104.04167v2",
+    "title": "The Road to Know-Where: An Object-and-Room Informed Sequential BERT for Indoor Vision-Language Navigation",
+    "authors": [
+      "Yuankai Qi",
+      "Zizheng Pan",
+      "Yicong Hong",
+      "Ming-Hsuan Yang",
+      "Anton van den Hengel"
+    ],
+    "year": 2021,
+    "abstract": "Vision-and-Language Navigation (VLN) requires an agent to find a path to a remote location on the basis of natural-language instructions and a set of photo-realistic panoramas. Most existing methods take the words in the instructions and the discrete views of each panorama as the minimal unit of encoding. However, this requires a model to match different nouns (e.g., TV, table) against the same input view feature. In this work, we propose an object-informed sequential BERT to encode visual perceptions and linguistic instructions at the same fine-grained level, namely objects and words. Our seq",
+    "pdf_url": "https://arxiv.org/pdf/2104.04167v2",
+    "query": "LLM know what they don't know uncertainty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2412.06243v1",
+    "arxiv_id": "2412.06243v1",
+    "title": "U-Know-DiffPAN: An Uncertainty-aware Knowledge Distillation Diffusion Framework with Details Enhancement for PAN-Sharpening",
+    "authors": [
+      "Sungpyo Kim",
+      "Jeonghyeok Do",
+      "Jaehyup Lee",
+      "Munchurl Kim"
+    ],
+    "year": 2024,
+    "abstract": "Conventional methods for PAN-sharpening often struggle to restore fine details due to limitations in leveraging high-frequency information. Moreover, diffusion-based approaches lack sufficient conditioning to fully utilize Panchromatic (PAN) images and low-resolution multispectral (LRMS) inputs effectively. To address these challenges, we propose an uncertainty-aware knowledge distillation diffusion framework with details enhancement for PAN-sharpening, called U-Know-DiffPAN. The U-Know-DiffPAN incorporates uncertainty-aware knowledge distillation for effective transfer of feature details from",
+    "pdf_url": "https://arxiv.org/pdf/2412.06243v1",
+    "query": "LLM know what they don't know uncertainty"
+  },
+  {
+    "id": "http://arxiv.org/abs/1812.06401v1",
+    "arxiv_id": "1812.06401v1",
+    "title": "What's to know? Uncertainty as a Guide to Asking Goal-oriented Questions",
+    "authors": [
+      "Ehsan Abbasnejad",
+      "Qi Wu",
+      "Javen Shi",
+      "Anton van den Hengel"
+    ],
+    "year": 2018,
+    "abstract": "One of the core challenges in Visual Dialogue problems is asking the question that will provide the most useful information towards achieving the required objective. Encouraging an agent to ask the right questions is difficult because we don't know a-priori what information the agent will need to achieve its task, and we don't have an explicit model of what it knows already. We propose a solution to this problem based on a Bayesian model of the uncertainty in the implicit model maintained by the visual dialogue agent, and in the function used to select an appropriate output. By selecting the q",
+    "pdf_url": "https://arxiv.org/pdf/1812.06401v1",
+    "query": "LLM know what they don't know uncertainty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2402.09717v1",
+    "arxiv_id": "2402.09717v1",
+    "title": "Visually Dehallucinative Instruction Generation: Know What You Don't Know",
+    "authors": [
+      "Sungguk Cha",
+      "Jusung Lee",
+      "Younghyun Lee",
+      "Cheoljong Yang"
+    ],
+    "year": 2024,
+    "abstract": "\"When did the emperor Napoleon invented iPhone?\" Such hallucination-inducing question is well known challenge in generative language modeling. In this study, we present an innovative concept of visual hallucination, referred to as \"I Know (IK)\" hallucination, to address scenarios where \"I Don't Know\" is the desired response. To effectively tackle this issue, we propose the VQAv2-IDK benchmark, the subset of VQAv2 comprising unanswerable image-question pairs as determined by human annotators. Stepping further, we present the visually dehallucinative instruction generation method for IK hallucin",
+    "pdf_url": "https://arxiv.org/pdf/2402.09717v1",
+    "query": "LLM know what they don't know uncertainty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2212.14815v3",
+    "arxiv_id": "2212.14815v3",
+    "title": "Black-box language model explanation by context length probing",
+    "authors": [
+      "Ond\u0159ej C\u00edfka",
+      "Antoine Liutkus"
+    ],
+    "year": 2022,
+    "abstract": "The increasingly widespread adoption of large language models has highlighted the need for improving their explainability. We present context length probing, a novel explanation technique for causal language models, based on tracking the predictions of a model as a function of the length of available context, and allowing to assign differential importance scores to different contexts. The technique is model-agnostic and does not rely on access to model internals beyond computing token-level probabilities. We apply context length probing to large pre-trained language models and offer some initi",
+    "pdf_url": "https://arxiv.org/pdf/2212.14815v3",
+    "query": "probing internal states truthfulness language model"
+  },
+  {
+    "id": "http://arxiv.org/abs/2503.21676v2",
+    "arxiv_id": "2503.21676v2",
+    "title": "How do language models learn facts? Dynamics, curricula and hallucinations",
+    "authors": [
+      "Nicolas Zucchet",
+      "J\u00f6rg Bornschein",
+      "Stephanie Chan",
+      "Andrew Lampinen",
+      "Razvan Pascanu"
+    ],
+    "year": 2025,
+    "abstract": "Large language models accumulate vast knowledge during pre-training, yet the dynamics governing this acquisition remain poorly understood. This work investigates the learning dynamics of language models on a synthetic factual recall task, uncovering three key findings: First, language models learn in three phases, exhibiting a performance plateau before acquiring precise factual knowledge. Mechanistically, this plateau coincides with the formation of attention-based circuits that support recall. Second, the training data distribution significantly impacts learning dynamics, as imbalanced distr",
+    "pdf_url": "https://arxiv.org/pdf/2503.21676v2",
+    "query": "probing internal states truthfulness language model"
+  },
+  {
+    "id": "http://arxiv.org/abs/q-bio/0703003v1",
+    "arxiv_id": "0703003v1",
+    "title": "Effect of Internal Viscosity on Brownian Dynamics of DNA Molecules in Shear Flow",
+    "authors": [
+      "Jack Yang",
+      "Roderick V. N. Melnik"
+    ],
+    "year": 2007,
+    "abstract": "The results of Brownian dynamics simulations of a single DNA molecule in shear flow are presented taking into account the effect of internal viscosity. The dissipative mechanism of internal viscosity is proved necessary in the research of DNA dynamics. A stochastic model is derived on the basis of the balance equation for forces acting on the chain. The Euler method is applied to the solution of the model. The extensions of DNA molecules for different Weissenberg numbers are analyzed. Comparison with the experimental results available in the literature is carried out to estimate the contributi",
+    "pdf_url": "https://arxiv.org/pdf/q-bio/0703003v1",
+    "query": "probing internal states truthfulness language model"
+  },
+  {
+    "id": "http://arxiv.org/abs/2105.12157v2",
+    "arxiv_id": "2105.12157v2",
+    "title": "Logic as an internal organisation of language",
+    "authors": [
+      "Boris \u010culina"
+    ],
+    "year": 2021,
+    "abstract": "Contemporary semantic description of logic is based on the ontology of all possible interpretations, an insufficiently clear metaphysical concept. In this article, logic is described as the internal organization of language. Logical concepts -- logical constants, logical truths and logical consequence -- are defined using the internal syntactic and semantic structure of language. For a first-order language, it has been shown that its logical constants are connectives and a certain type of quantifiers for which the universal and existential quantifiers form a functionally complete set of quanti",
+    "pdf_url": "https://arxiv.org/pdf/2105.12157v2",
+    "query": "probing internal states truthfulness language model"
+  },
+  {
+    "id": "http://arxiv.org/abs/2105.08473v2",
+    "arxiv_id": "2105.08473v2",
+    "title": "An Internal Language for Categories Enriched over Generalised Metric Spaces",
+    "authors": [
+      "Fredrik Dahlqvist",
+      "Renato Neves"
+    ],
+    "year": 2021,
+    "abstract": "Programs with a continuous state space or that interact with physical processes often require notions of equivalence going beyond the standard binary setting in which equivalence either holds or does not hold. In this paper we explore the idea of equivalence taking values in a quantale V, which covers the cases of (in)equations and (ultra)metric equations among others. Our main result is the introduction of a V-equational deductive system for linear \u03bb-calculus together with a proof that it is sound and complete (in fact, an internal language) for a class of enriched autonomous categories. In t",
+    "pdf_url": "https://arxiv.org/pdf/2105.08473v2",
+    "query": "probing internal states truthfulness language model"
+  },
+  {
+    "id": "http://arxiv.org/abs/2409.02228v1",
+    "arxiv_id": "2409.02228v1",
+    "title": "Unforgettable Generalization in Language Models",
+    "authors": [
+      "Eric Zhang",
+      "Leshem Chosen",
+      "Jacob Andreas"
+    ],
+    "year": 2024,
+    "abstract": "When language models (LMs) are trained to forget (or \"unlearn'') a skill, how precisely does their behavior change? We study the behavior of transformer LMs in which tasks have been forgotten via fine-tuning on randomized labels. Such LMs learn to generate near-random predictions for individual examples in the \"training'' set used for forgetting. Across tasks, however, LMs exhibit extreme variability in whether LM predictions change on examples outside the training set. In some tasks (like entailment classification), forgetting generalizes robustly, and causes models to produce uninformative p",
+    "pdf_url": "https://arxiv.org/pdf/2409.02228v1",
+    "query": "probing internal states truthfulness language model"
+  },
+  {
+    "id": "http://arxiv.org/abs/1610.00031v1",
+    "arxiv_id": "1610.00031v1",
+    "title": "Discriminating Similar Languages: Evaluations and Explorations",
+    "authors": [
+      "Cyril Goutte",
+      "Serge L\u00e9ger",
+      "Shervin Malmasi",
+      "Marcos Zampieri"
+    ],
+    "year": 2016,
+    "abstract": "We present an analysis of the performance of machine learning classifiers on discriminating between similar languages and language varieties. We carried out a number of experiments using the results of the two editions of the Discriminating between Similar Languages (DSL) shared task. We investigate the progress made between the two tasks, estimate an upper bound on possible performance using ensemble and oracle combination, and provide learning curves to help us understand which languages are more challenging. A number of difficult sentences are identified and investigated further with human ",
+    "pdf_url": "https://arxiv.org/pdf/1610.00031v1",
+    "query": "probing internal states truthfulness language model"
+  },
+  {
+    "id": "http://arxiv.org/abs/2312.03729v1",
+    "arxiv_id": "2312.03729v1",
+    "title": "Cognitive Dissonance: Why Do Language Model Outputs Disagree with Internal Representations of Truthfulness?",
+    "authors": [
+      "Kevin Liu",
+      "Stephen Casper",
+      "Dylan Hadfield-Menell",
+      "Jacob Andreas"
+    ],
+    "year": 2023,
+    "abstract": "Neural language models (LMs) can be used to evaluate the truth of factual statements in two ways: they can be either queried for statement probabilities, or probed for internal representations of truthfulness. Past work has found that these two procedures sometimes disagree, and that probes tend to be more accurate than LM outputs. This has led some researchers to conclude that LMs \"lie\" or otherwise encode non-cooperative communicative intents. Is this an accurate description of today's LMs, or can query-probe disagreement arise in other ways? We identify three different classes of disagreeme",
+    "pdf_url": "https://arxiv.org/pdf/2312.03729v1",
+    "query": "probing internal states truthfulness language model"
+  },
+  {
+    "id": "http://arxiv.org/abs/2409.18786v1",
+    "arxiv_id": "2409.18786v1",
+    "title": "A Survey on the Honesty of Large Language Models",
+    "authors": [
+      "Siheng Li",
+      "Cheng Yang",
+      "Taiqiang Wu",
+      "Chufan Shi",
+      "Yuji Zhang"
+    ],
+    "year": 2024,
+    "abstract": "Honesty is a fundamental principle for aligning large language models (LLMs) with human values, requiring these models to recognize what they know and don't know and be able to faithfully express their knowledge. Despite promising, current LLMs still exhibit significant dishonest behaviors, such as confidently presenting wrong answers or failing to express what they know. In addition, research on the honesty of LLMs also faces challenges, including varying definitions of honesty, difficulties in distinguishing between known and unknown knowledge, and a lack of comprehensive understanding of re",
+    "pdf_url": "https://arxiv.org/pdf/2409.18786v1",
+    "query": "TruthfulQA benchmark evaluation language model honesty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2403.03788v1",
+    "arxiv_id": "2403.03788v1",
+    "title": "PPTC-R benchmark: Towards Evaluating the Robustness of Large Language Models for PowerPoint Task Completion",
+    "authors": [
+      "Zekai Zhang",
+      "Yiduo Guo",
+      "Yaobo Liang",
+      "Dongyan Zhao",
+      "Nan Duan"
+    ],
+    "year": 2024,
+    "abstract": "The growing dependence on Large Language Models (LLMs) for finishing user instructions necessitates a comprehensive understanding of their robustness to complex task completion in real-world situations. To address this critical need, we propose the PowerPoint Task Completion Robustness benchmark (PPTC-R) to measure LLMs' robustness to the user PPT task instruction and software version. Specifically, we construct adversarial user instructions by attacking user instructions at sentence, semantic, and multi-language levels. To assess the robustness of Language Models to software versions, we vary",
+    "pdf_url": "https://arxiv.org/pdf/2403.03788v1",
+    "query": "TruthfulQA benchmark evaluation language model honesty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.22758v2",
+    "arxiv_id": "2510.22758v2",
+    "title": "EchoMind: An Interrelated Multi-level Benchmark for Evaluating Empathetic Speech Language Models",
+    "authors": [
+      "Li Zhou",
+      "Lutong Yu",
+      "You Lyu",
+      "Yihang Lin",
+      "Zefeng Zhao"
+    ],
+    "year": 2025,
+    "abstract": "Speech Language Models (SLMs) have made significant progress in spoken language understanding. Yet it remains unclear whether they can fully perceive non lexical vocal cues alongside spoken words, and respond with empathy that aligns with both emotional and contextual factors. Existing benchmarks typically evaluate linguistic, acoustic, reasoning, or dialogue abilities in isolation, overlooking the integration of these skills that is crucial for human-like, emotionally intelligent conversation. We present EchoMind, the first interrelated, multi-level benchmark that simulates the cognitive proc",
+    "pdf_url": "https://arxiv.org/pdf/2510.22758v2",
+    "query": "TruthfulQA benchmark evaluation language model honesty"
+  },
+  {
+    "id": "http://arxiv.org/abs/1312.3005v3",
+    "arxiv_id": "1312.3005v3",
+    "title": "One Billion Word Benchmark for Measuring Progress in Statistical Language Modeling",
+    "authors": [
+      "Ciprian Chelba",
+      "Tomas Mikolov",
+      "Mike Schuster",
+      "Qi Ge",
+      "Thorsten Brants"
+    ],
+    "year": 2013,
+    "abstract": "We propose a new benchmark corpus to be used for measuring progress in statistical language modeling. With almost one billion words of training data, we hope this benchmark will be useful to quickly evaluate novel language modeling techniques, and to compare their contribution when combined with other advanced techniques. We show performance of several well-known types of language models, with the best results achieved with a recurrent neural network based language model. The baseline unpruned Kneser-Ney 5-gram model achieves perplexity 67.6; a combination of techniques leads to 35% reduction ",
+    "pdf_url": "https://arxiv.org/pdf/1312.3005v3",
+    "query": "TruthfulQA benchmark evaluation language model honesty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2406.13261v3",
+    "arxiv_id": "2406.13261v3",
+    "title": "BeHonest: Benchmarking Honesty in Large Language Models",
+    "authors": [
+      "Steffi Chern",
+      "Zhulin Hu",
+      "Yuqing Yang",
+      "Ethan Chern",
+      "Yuan Guo"
+    ],
+    "year": 2024,
+    "abstract": "Previous works on Large Language Models (LLMs) have mainly focused on evaluating their helpfulness or harmlessness. However, honesty, another crucial alignment criterion, has received relatively less attention. Dishonest behaviors in LLMs, such as spreading misinformation and defrauding users, present severe risks that intensify as these models approach superintelligent levels. Enhancing honesty in LLMs addresses critical limitations and helps uncover latent capabilities that are not readily expressed. This underscores the urgent need for reliable methods and benchmarks to effectively ensure a",
+    "pdf_url": "https://arxiv.org/pdf/2406.13261v3",
+    "query": "TruthfulQA benchmark evaluation language model honesty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2602.22827v1",
+    "arxiv_id": "2602.22827v1",
+    "title": "TARAZ: Persian Short-Answer Question Benchmark for Cultural Evaluation of Language Models",
+    "authors": [
+      "Reihaneh Iranmanesh",
+      "Saeedeh Davoudi",
+      "Pasha Abrishamchian",
+      "Ophir Frieder",
+      "Nazli Goharian"
+    ],
+    "year": 2026,
+    "abstract": "This paper presents a comprehensive evaluation framework for assessing the cultural competence of large language models (LLMs) in Persian. Existing Persian cultural benchmarks rely predominantly on multiple-choice formats and English-centric metrics that fail to capture Persian's morphological complexity and semantic nuance. Our framework introduces a Persian-specific short-answer evaluation that combines rule-based morphological normalization with a hybrid syntactic and semantic similarity module, enabling robust soft-match scoring beyond exact string overlap. Through systematic evaluation of",
+    "pdf_url": "https://arxiv.org/pdf/2602.22827v1",
+    "query": "TruthfulQA benchmark evaluation language model honesty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2307.12114v3",
+    "arxiv_id": "2307.12114v3",
+    "title": "A Zero-shot and Few-shot Study of Instruction-Finetuned Large Language Models Applied to Clinical and Biomedical Tasks",
+    "authors": [
+      "Yanis Labrak",
+      "Mickael Rouvier",
+      "Richard Dufour"
+    ],
+    "year": 2023,
+    "abstract": "We evaluate four state-of-the-art instruction-tuned large language models (LLMs) -- ChatGPT, Flan-T5 UL2, Tk-Instruct, and Alpaca -- on a set of 13 real-world clinical and biomedical natural language processing (NLP) tasks in English, such as named-entity recognition (NER), question-answering (QA), relation extraction (RE), etc. Our overall results demonstrate that the evaluated LLMs begin to approach performance of state-of-the-art models in zero- and few-shot scenarios for most tasks, and particularly well for the QA task, even though they have never seen examples from these tasks before. Ho",
+    "pdf_url": "https://arxiv.org/pdf/2307.12114v3",
+    "query": "TruthfulQA benchmark evaluation language model honesty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2402.14679v2",
+    "arxiv_id": "2402.14679v2",
+    "title": "Is Self-knowledge and Action Consistent or Not: Investigating Large Language Model's Personality",
+    "authors": [
+      "Yiming Ai",
+      "Zhiwei He",
+      "Ziyin Zhang",
+      "Wenhong Zhu",
+      "Hongkun Hao"
+    ],
+    "year": 2024,
+    "abstract": "In this study, we delve into the validity of conventional personality questionnaires in capturing the human-like personality traits of Large Language Models (LLMs). Our objective is to assess the congruence between the personality traits LLMs claim to possess and their demonstrated tendencies in real-world scenarios. By conducting an extensive examination of LLM outputs against observed human response patterns, we aim to understand the disjunction between self-knowledge and action in LLMs.",
+    "pdf_url": "https://arxiv.org/pdf/2402.14679v2",
+    "query": "SELFAWARE self-knowledge large language models"
+  },
+  {
+    "id": "http://arxiv.org/abs/2501.05032v2",
+    "arxiv_id": "2501.05032v2",
+    "title": "Enhancing Human-Like Responses in Large Language Models",
+    "authors": [
+      "Ethem Ya\u011f\u0131z \u00c7al\u0131k",
+      "Talha R\u00fczgar Akku\u015f"
+    ],
+    "year": 2025,
+    "abstract": "This paper explores the advancements in making large language models (LLMs) more human-like. We focus on techniques that enhance natural language understanding, conversational coherence, and emotional intelligence in AI systems. The study evaluates various approaches, including fine-tuning with diverse datasets, incorporating psychological principles, and designing models that better mimic human reasoning patterns. Our findings demonstrate that these enhancements not only improve user interactions but also open new possibilities for AI applications across different domains. Future work will ad",
+    "pdf_url": "https://arxiv.org/pdf/2501.05032v2",
+    "query": "SELFAWARE self-knowledge large language models"
+  },
+  {
+    "id": "http://arxiv.org/abs/2504.19565v3",
+    "arxiv_id": "2504.19565v3",
+    "title": "Knowledge-Driven Agentic Scientific Corpus Distillation Framework for Biomedical Large Language Models Training",
+    "authors": [
+      "Meng Xiao",
+      "Xunxin Cai",
+      "Qingqing Long",
+      "Chengrui Wang",
+      "Yuanchun Zhou"
+    ],
+    "year": 2025,
+    "abstract": "Corpus distillation for biomedical large language models (LLMs) seeks to address the pressing challenge of insufficient quantity and quality in open-source annotated scientific corpora, which remains a bottleneck for effective LLM training in biomedical research. This paper proposes a knowledge-driven, agentic framework for scientific corpus distillation, tailored explicitly for LLM training in the biomedical domain, addressing the challenge posed by the complex hierarchy of biomedical knowledge. Central to our approach is a collaborative multi-agent architecture, where specialized agents, eac",
+    "pdf_url": "https://arxiv.org/pdf/2504.19565v3",
+    "query": "SELFAWARE self-knowledge large language models"
+  },
+  {
+    "id": "http://arxiv.org/abs/2405.11357v3",
+    "arxiv_id": "2405.11357v3",
+    "title": "Large Language Models Lack Understanding of Character Composition of Words",
+    "authors": [
+      "Andrew Shin",
+      "Kunitake Kaneko"
+    ],
+    "year": 2024,
+    "abstract": "Large language models (LLMs) have demonstrated remarkable performances on a wide range of natural language tasks. Yet, LLMs' successes have been largely restricted to tasks concerning words, sentences, or documents, and it remains questionable how much they understand the minimal units of text, namely characters. In this paper, we examine contemporary LLMs regarding their ability to understand character composition of words, and show that most of them fail to reliably carry out even the simple tasks that can be handled by humans with perfection. We analyze their behaviors with comparison to to",
+    "pdf_url": "https://arxiv.org/pdf/2405.11357v3",
+    "query": "SELFAWARE self-knowledge large language models"
+  },
+  {
+    "id": "http://arxiv.org/abs/2403.09676v1",
+    "arxiv_id": "2403.09676v1",
+    "title": "Unmasking the Shadows of AI: Investigating Deceptive Capabilities in Large Language Models",
+    "authors": [
+      "Linge Guo"
+    ],
+    "year": 2024,
+    "abstract": "This research critically navigates the intricate landscape of AI deception, concentrating on deceptive behaviours of Large Language Models (LLMs). My objective is to elucidate this issue, examine the discourse surrounding it, and subsequently delve into its categorization and ramifications. The essay initiates with an evaluation of the AI Safety Summit 2023 (ASS) and introduction of LLMs, emphasising multidimensional biases that underlie their deceptive behaviours.The literature review covers four types of deception categorised: Strategic deception, Imitation, Sycophancy, and Unfaithful Reason",
+    "pdf_url": "https://arxiv.org/pdf/2403.09676v1",
+    "query": "SELFAWARE self-knowledge large language models"
+  },
+  {
+    "id": "http://arxiv.org/abs/2407.01505v1",
+    "arxiv_id": "2407.01505v1",
+    "title": "Self-Cognition in Large Language Models: An Exploratory Study",
+    "authors": [
+      "Dongping Chen",
+      "Jiawen Shi",
+      "Yao Wan",
+      "Pan Zhou",
+      "Neil Zhenqiang Gong"
+    ],
+    "year": 2024,
+    "abstract": "While Large Language Models (LLMs) have achieved remarkable success across various applications, they also raise concerns regarding self-cognition. In this paper, we perform a pioneering study to explore self-cognition in LLMs. Specifically, we first construct a pool of self-cognition instruction prompts to evaluate where an LLM exhibits self-cognition and four well-designed principles to quantify LLMs' self-cognition. Our study reveals that 4 of the 48 models on Chatbot Arena--specifically Command R, Claude3-Opus, Llama-3-70b-Instruct, and Reka-core--demonstrate some level of detectable self-",
+    "pdf_url": "https://arxiv.org/pdf/2407.01505v1",
+    "query": "SELFAWARE self-knowledge large language models"
+  },
+  {
+    "id": "http://arxiv.org/abs/2309.02144v1",
+    "arxiv_id": "2309.02144v1",
+    "title": "Making Large Language Models Better Reasoners with Alignment",
+    "authors": [
+      "Peiyi Wang",
+      "Lei Li",
+      "Liang Chen",
+      "Feifan Song",
+      "Binghuai Lin"
+    ],
+    "year": 2023,
+    "abstract": "Reasoning is a cognitive process of using evidence to reach a sound conclusion. The reasoning capability is essential for large language models (LLMs) to serve as the brain of the artificial general intelligence agent. Recent studies reveal that fine-tuning LLMs on data with the chain of thought (COT) reasoning process can significantly enhance their reasoning capabilities. However, we find that the fine-tuned LLMs suffer from an \\textit{Assessment Misalignment} problem, i.e., they frequently assign higher scores to subpar COTs, leading to potential limitations in their reasoning abilities. To",
+    "pdf_url": "https://arxiv.org/pdf/2309.02144v1",
+    "query": "SELFAWARE self-knowledge large language models"
+  },
+  {
+    "id": "http://arxiv.org/abs/2312.05434v1",
+    "arxiv_id": "2312.05434v1",
+    "title": "Beneath the Surface: Unveiling Harmful Memes with Multimodal Reasoning Distilled from Large Language Models",
+    "authors": [
+      "Hongzhan Lin",
+      "Ziyang Luo",
+      "Jing Ma",
+      "Long Chen"
+    ],
+    "year": 2023,
+    "abstract": "The age of social media is rife with memes. Understanding and detecting harmful memes pose a significant challenge due to their implicit meaning that is not explicitly conveyed through the surface text and image. However, existing harmful meme detection approaches only recognize superficial harm-indicative signals in an end-to-end classification manner but ignore in-depth cognition of the meme text and image. In this paper, we attempt to detect harmful memes based on advanced reasoning over the interplay of multimodal information in memes. Inspired by the success of Large Language Models (LLMs",
+    "pdf_url": "https://arxiv.org/pdf/2312.05434v1",
+    "query": "SELFAWARE self-knowledge large language models"
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.07008v1",
+    "arxiv_id": "1906.07008v1",
+    "title": "Hallucinated Adversarial Learning for Robust Visual Tracking",
+    "authors": [
+      "Qiangqiang Wu",
+      "Zhihui Chen",
+      "Lin Cheng",
+      "Yan Yan",
+      "Bo Li"
+    ],
+    "year": 2019,
+    "abstract": "Humans can easily learn new concepts from just a single exemplar, mainly due to their remarkable ability to imagine or hallucinate what the unseen exemplar may look like in different settings. Incorporating such an ability to hallucinate diverse new samples of the tracked instance can help the trackers alleviate the over-fitting problem in the low-data tracking regime. To achieve this, we propose an effective adversarial approach, denoted as adversarial \"hallucinator\" (AH), for robust visual tracking. The proposed AH is designed to firstly learn transferable non-linear deformations between a p",
+    "pdf_url": "https://arxiv.org/pdf/1906.07008v1",
+    "query": "semantic consistency multiple samples hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.07180v1",
+    "arxiv_id": "2006.07180v1",
+    "title": "High-Level ETL for Semantic Data Warehouses -- Full Version",
+    "authors": [
+      "Rudra Pratap Deb Nath",
+      "Oscar Romero",
+      "Torben Bach Pedersen",
+      "Katja Hose"
+    ],
+    "year": 2020,
+    "abstract": "The popularity of the Semantic Web (SW) encourages organizations to organize and publish semantic data using the RDF model. This growth poses new requirements to Business Intelligence (BI) technologies to enable On-Line Analytical Processing (OLAP)-like analysis over semantic data. The incorporation of semantic data into a Data Warehouse (DW) is not supported by the traditional Extract-Transform-Load (ETL) tools because they do not consider semantic issues in the integration process. In this paper, we propose a layer-based integration process and a set of high-level RDF-based ETL constructs re",
+    "pdf_url": "https://arxiv.org/pdf/2006.07180v1",
+    "query": "semantic consistency multiple samples hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/1312.5150v1",
+    "arxiv_id": "1312.5150v1",
+    "title": "Semantic Jira - Semantic Expert Finder in the Bug Tracking Tool Jira",
+    "authors": [
+      "Velten Heyn",
+      "Adrian Paschke"
+    ],
+    "year": 2013,
+    "abstract": "The semantic expert recommender extension for the Jira bug tracking system semantically searches for similar tickets in Jira and recommends experts and links to existing organizational (Wiki) knowledge for each ticket. This helps to avoid redundant work and supports the search and collaboration with experts in the project management and maintenance phase based on semantically enriched tickets in Jira.",
+    "pdf_url": "https://arxiv.org/pdf/1312.5150v1",
+    "query": "semantic consistency multiple samples hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/0807.4618v1",
+    "arxiv_id": "0807.4618v1",
+    "title": "AceWiki: A Natural and Expressive Semantic Wiki",
+    "authors": [
+      "Tobias Kuhn"
+    ],
+    "year": 2008,
+    "abstract": "We present AceWiki, a prototype of a new kind of semantic wiki using the controlled natural language Attempto Controlled English (ACE) for representing its content. ACE is a subset of English with a restricted grammar and a formal semantics. The use of ACE has two important advantages over existing semantic wikis. First, we can improve the usability and achieve a shallow learning curve. Second, ACE is more expressive than the formal languages of existing semantic wikis. Our evaluation shows that people who are not familiar with the formal foundations of the Semantic Web are able to deal with A",
+    "pdf_url": "https://arxiv.org/pdf/0807.4618v1",
+    "query": "semantic consistency multiple samples hallucination"
+  }
+]

@@ -3,10 +3,14 @@
   "stages": {
     "resource_finder": {
       "status": "failed",
-      "started_at": "2026-03-06T19:00:20.216770",
-      "completed_at": "2026-03-06T19:00:34.685007",
+      "started_at": "2026-03-06T19:14:40.497584",
+      "completed_at": "2026-03-06T19:17:36.349714",
       "success": false,
-      "outputs": {}
+      "outputs": {
+        "papers_dir": "/workspaces/can_llms_self_detect_their_own_20260306_190002_c9853df7/papers",
+        "datasets_dir": "/workspaces/can_llms_self_detect_their_own_20260306_190002_c9853df7/datasets",
+        "code_dir": "/workspaces/can_llms_self_detect_their_own_20260306_190002_c9853df7/code"
+      }
     }
   },
   "current_stage": null,

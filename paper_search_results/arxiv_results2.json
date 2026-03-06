@@ -1,0 +1,706 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2506.06962v3",
+    "arxiv_id": "2506.06962v3",
+    "title": "AR-RAG: Autoregressive Retrieval Augmentation for Image Generation",
+    "authors": [
+      "Jingyuan Qi",
+      "Zhiyang Xu",
+      "Qifan Wang",
+      "Lifu Huang"
+    ],
+    "year": 2025,
+    "abstract": "We introduce Autoregressive Retrieval Augmentation (AR-RAG), a novel paradigm that enhances image generation by autoregressively incorporating knearest neighbor retrievals at the patch level. Unlike prior methods that perform a single, static retrieval before generation and condition the entire generation on fixed reference images, AR-RAG performs context-aware retrievals at each generation step, using prior-generated patches as queries to retrieve and incorporate the most relevant patch-level visual references, enabling the model to respond to evolving generation needs while avoiding limitati",
+    "pdf_url": "https://arxiv.org/pdf/2506.06962v3",
+    "query": "self-RAG retrieval augmented generation hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2504.13684v1",
+    "arxiv_id": "2504.13684v1",
+    "title": "Intelligent Interaction Strategies for Context-Aware Cognitive Augmentation",
+    "authors": [
+      "Xiangrong",
+      "Zhu",
+      "Yuan Xu",
+      "Tianjian Liu",
+      "Jingwei Sun"
+    ],
+    "year": 2025,
+    "abstract": "Human cognition is constrained by processing limitations, leading to cognitive overload and inefficiencies in knowledge synthesis and decision-making. Large Language Models (LLMs) present an opportunity for cognitive augmentation, but their current reactive nature limits their real-world applicability. This position paper explores the potential of context-aware cognitive augmentation, where LLMs dynamically adapt to users' cognitive states and task environments to provide appropriate support. Through a think-aloud study in an exhibition setting, we examine how individuals interact with multi-m",
+    "pdf_url": "https://arxiv.org/pdf/2504.13684v1",
+    "query": "self-RAG retrieval augmented generation hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2504.17204v1",
+    "arxiv_id": "2504.17204v1",
+    "title": "Factually: Exploring Wearable Fact-Checking for Augmented Truth Discernment",
+    "authors": [
+      "Chitralekha Gupta",
+      "Hanjun Wu",
+      "Praveen Sasikumar",
+      "Shreyas Sridhar",
+      "Priambudi Bagaskara"
+    ],
+    "year": 2025,
+    "abstract": "Wearable devices are transforming human capabilities by seamlessly augmenting cognitive functions. In this position paper, we propose a voice-based, interactive learning companion designed to amplify and extend cognitive abilities through informal learning. Our vision is threefold: (1) to enable users to discover new knowledge on-the-go through contextual interactive quizzes, fostering critical thinking and mindfulness, (2) to proactively detect misinformation, empowering users to critically assess information in real time, and (3) to provide spoken language correction and prompting hints for ",
+    "pdf_url": "https://arxiv.org/pdf/2504.17204v1",
+    "query": "self-RAG retrieval augmented generation hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2504.14689v1",
+    "arxiv_id": "2504.14689v1",
+    "title": "Designing AI Systems that Augment Human Performed vs. Demonstrated Critical Thinking",
+    "authors": [
+      "Katelyn Xiaoying Mei",
+      "Nic Weber"
+    ],
+    "year": 2025,
+    "abstract": "The recent rapid advancement of LLM-based AI systems has accelerated our search and production of information. While the advantages brought by these systems seemingly improve the performance or efficiency of human activities, they do not necessarily enhance human capabilities. Recent research has started to examine the impact of generative AI on individuals' cognitive abilities, especially critical thinking. Based on definitions of critical thinking across psychology and education, this position paper proposes the distinction between demonstrated and performed critical thinking in the era of g",
+    "pdf_url": "https://arxiv.org/pdf/2504.14689v1",
+    "query": "self-RAG retrieval augmented generation hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2411.18583v1",
+    "arxiv_id": "2411.18583v1",
+    "title": "Automated Literature Review Using NLP Techniques and LLM-Based Retrieval-Augmented Generation",
+    "authors": [
+      "Nurshat Fateh Ali",
+      "Md. Mahdi Mohtasim",
+      "Shakil Mosharrof",
+      "T. Gopi Krishna"
+    ],
+    "year": 2024,
+    "abstract": "This research presents and compares multiple approaches to automate the generation of literature reviews using several Natural Language Processing (NLP) techniques and retrieval-augmented generation (RAG) with a Large Language Model (LLM). The ever-increasing number of research articles provides a huge challenge for manual literature review. It has resulted in an increased demand for automation. Developing a system capable of automatically generating the literature reviews from only the PDF files as input is the primary objective of this research work. The effectiveness of several Natural Lang",
+    "pdf_url": "https://arxiv.org/pdf/2411.18583v1",
+    "query": "self-RAG retrieval augmented generation hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2402.12317v2",
+    "arxiv_id": "2402.12317v2",
+    "title": "EVOR: Evolving Retrieval for Code Generation",
+    "authors": [
+      "Hongjin Su",
+      "Shuyang Jiang",
+      "Yuhang Lai",
+      "Haoyuan Wu",
+      "Boao Shi"
+    ],
+    "year": 2024,
+    "abstract": "Recently the retrieval-augmented generation (RAG) has been successfully applied in code generation. However, existing pipelines for retrieval-augmented code generation (RACG) employ static knowledge bases with a single source, limiting the adaptation capabilities of Large Language Models (LLMs) to domains they have insufficient knowledge of. In this work, we develop a novel pipeline, EVOR, that employs the synchronous evolution of both queries and diverse knowledge bases. On two realistic settings where the external knowledge is required to solve code generation tasks, we compile four new data",
+    "pdf_url": "https://arxiv.org/pdf/2402.12317v2",
+    "query": "self-RAG retrieval augmented generation hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2502.00306v2",
+    "arxiv_id": "2502.00306v2",
+    "title": "Riddle Me This! Stealthy Membership Inference for Retrieval-Augmented Generation",
+    "authors": [
+      "Ali Naseh",
+      "Yuefeng Peng",
+      "Anshuman Suri",
+      "Harsh Chaudhari",
+      "Alina Oprea"
+    ],
+    "year": 2025,
+    "abstract": "Retrieval-Augmented Generation (RAG) enables Large Language Models (LLMs) to generate grounded responses by leveraging external knowledge databases without altering model parameters. Although the absence of weight tuning prevents leakage via model parameters, it introduces the risk of inference adversaries exploiting retrieved documents in the model's context. Existing methods for membership inference and data extraction often rely on jailbreaking or carefully crafted unnatural queries, which can be easily detected or thwarted with query rewriting techniques common in RAG systems. In this work",
+    "pdf_url": "https://arxiv.org/pdf/2502.00306v2",
+    "query": "self-RAG retrieval augmented generation hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2309.15217v2",
+    "arxiv_id": "2309.15217v2",
+    "title": "Ragas: Automated Evaluation of Retrieval Augmented Generation",
+    "authors": [
+      "Shahul Es",
+      "Jithin James",
+      "Luis Espinosa-Anke",
+      "Steven Schockaert"
+    ],
+    "year": 2023,
+    "abstract": "We introduce Ragas (Retrieval Augmented Generation Assessment), a framework for reference-free evaluation of Retrieval Augmented Generation (RAG) pipelines. RAG systems are composed of a retrieval and an LLM based generation module, and provide LLMs with knowledge from a reference textual database, which enables them to act as a natural language layer between a user and textual databases, reducing the risk of hallucinations. Evaluating RAG architectures is, however, challenging because there are several dimensions to consider: the ability of the retrieval system to identify relevant and focuse",
+    "pdf_url": "https://arxiv.org/pdf/2309.15217v2",
+    "query": "self-RAG retrieval augmented generation hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.22344v1",
+    "arxiv_id": "2510.22344v1",
+    "title": "FAIR-RAG: Faithful Adaptive Iterative Refinement for Retrieval-Augmented Generation",
+    "authors": [
+      "Mohammad Aghajani Asl",
+      "Majid Asgari-Bidhendi",
+      "Behrooz Minaei-Bidgoli"
+    ],
+    "year": 2025,
+    "abstract": "While Retrieval-Augmented Generation (RAG) mitigates hallucination and knowledge staleness in Large Language Models (LLMs), existing frameworks often falter on complex, multi-hop queries that require synthesizing information from disparate sources. Current advanced RAG methods, employing iterative or adaptive strategies, lack a robust mechanism to systematically identify and fill evidence gaps, often propagating noise or failing to gather a comprehensive context. We introduce FAIR-RAG, a novel agentic framework that transforms the standard RAG pipeline into a dynamic, evidence-driven reasoning",
+    "pdf_url": "https://arxiv.org/pdf/2510.22344v1",
+    "query": "self-RAG retrieval augmented generation hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2507.23334v2",
+    "arxiv_id": "2507.23334v2",
+    "title": "MUST-RAG: MUSical Text Question Answering with Retrieval Augmented Generation",
+    "authors": [
+      "Daeyong Kwon",
+      "SeungHeon Doh",
+      "Juhan Nam"
+    ],
+    "year": 2025,
+    "abstract": "Recent advancements in Large language models (LLMs) have demonstrated remarkable capabilities across diverse domains. While they exhibit strong zero-shot performance on various tasks, LLMs' effectiveness in music-related applications remains limited due to the relatively small proportion of music-specific knowledge in their training data. To address this limitation, we propose MusT-RAG, a comprehensive framework based on Retrieval Augmented Generation (RAG) to adapt general-purpose LLMs for text-only music question answering (MQA) tasks. RAG is a technique that provides external knowledge to L",
+    "pdf_url": "https://arxiv.org/pdf/2507.23334v2",
+    "query": "self-RAG retrieval augmented generation hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2506.09886v2",
+    "arxiv_id": "2506.09886v2",
+    "title": "Probabilistic distances-based hallucination detection in LLMs with RAG",
+    "authors": [
+      "Rodion Oblovatny",
+      "Alexandra Kuleshova",
+      "Konstantin Polev",
+      "Alexey Zaytsev"
+    ],
+    "year": 2025,
+    "abstract": "Detecting hallucinations in large language models (LLMs) is critical for their safety in many applications. Without proper detection, these systems often provide harmful, unreliable answers. In recent years, LLMs have been actively used in retrieval-augmented generation (RAG) settings. However, hallucinations remain even in this setting, and while numerous hallucination detection methods have been proposed, most approaches are not specifically designed for RAG systems. To overcome this limitation, we introduce a hallucination detection method based on estimating the distances between the distr",
+    "pdf_url": "https://arxiv.org/pdf/2506.09886v2",
+    "query": "SelfCheckGPT hallucination detection sampling"
+  },
+  {
+    "id": "http://arxiv.org/abs/2303.08896v3",
+    "arxiv_id": "2303.08896v3",
+    "title": "SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models",
+    "authors": [
+      "Potsawee Manakul",
+      "Adian Liusie",
+      "Mark J. F. Gales"
+    ],
+    "year": 2023,
+    "abstract": "Generative Large Language Models (LLMs) such as GPT-3 are capable of generating highly fluent responses to a wide variety of user prompts. However, LLMs are known to hallucinate facts and make non-factual statements which can undermine trust in their output. Existing fact-checking approaches either require access to the output probability distribution (which may not be available for systems such as ChatGPT) or external databases that are interfaced via separate, often complex, modules. In this work, we propose \"SelfCheckGPT\", a simple sampling-based approach that can be used to fact-check the ",
+    "pdf_url": "https://arxiv.org/pdf/2303.08896v3",
+    "query": "SelfCheckGPT hallucination detection sampling"
+  },
+  {
+    "id": "http://arxiv.org/abs/2506.22486v1",
+    "arxiv_id": "2506.22486v1",
+    "title": "Hallucination Detection with Small Language Models",
+    "authors": [
+      "Ming Cheung"
+    ],
+    "year": 2025,
+    "abstract": "Since the introduction of ChatGPT, large language models (LLMs) have demonstrated significant utility in various tasks, such as answering questions through retrieval-augmented generation. Context can be retrieved using a vectorized database, serving as a foundation for LLMs to generate responses. However, hallucinations in responses can undermine the reliability of LLMs in practical applications, and they are not easily detectable in the absence of ground truth, particularly in question-and-answer scenarios. This paper proposes a framework that integrates multiple small language models to veri",
+    "pdf_url": "https://arxiv.org/pdf/2506.22486v1",
+    "query": "SelfCheckGPT hallucination detection sampling"
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.03107v1",
+    "arxiv_id": "2512.03107v1",
+    "title": "Detecting AI Hallucinations in Finance: An Information-Theoretic Method Cuts Hallucination Rate by 92%",
+    "authors": [
+      "Mainak Singha"
+    ],
+    "year": 2025,
+    "abstract": "Large language models (LLMs) produce fluent but unsupported answers - hallucinations - limiting safe deployment in high-stakes domains. We propose ECLIPSE, a framework that treats hallucination as a mismatch between a model's semantic entropy and the capacity of available evidence. We combine entropy estimation via multi-sample clustering with a novel perplexity decomposition that measures how models use retrieved evidence. We prove that under mild conditions, the resulting entropy-capacity objective is strictly convex with a unique stable optimum. We evaluate on a controlled financial questio",
+    "pdf_url": "https://arxiv.org/pdf/2512.03107v1",
+    "query": "SelfCheckGPT hallucination detection sampling"
+  },
+  {
+    "id": "http://arxiv.org/abs/2507.20836v4",
+    "arxiv_id": "2507.20836v4",
+    "title": "First Hallucination Tokens Are Different from Conditional Ones",
+    "authors": [
+      "Jakob Snel",
+      "Seong Joon Oh"
+    ],
+    "year": 2025,
+    "abstract": "Large Language Models (LLMs) hallucinate, and detecting these cases is key to ensuring trust. While many approaches address hallucination detection at the response or span level, recent work explores token-level detection, enabling more fine-grained intervention. However, the distribution of hallucination signal across sequences of hallucinated tokens remains unexplored. We leverage token-level annotations from the RAGTruth corpus and find that the first hallucinated token is far more detectable than later ones. This structural property holds across models, suggesting that first hallucination ",
+    "pdf_url": "https://arxiv.org/pdf/2507.20836v4",
+    "query": "SelfCheckGPT hallucination detection sampling"
+  },
+  {
+    "id": "http://arxiv.org/abs/2506.00448v1",
+    "arxiv_id": "2506.00448v1",
+    "title": "Fact-Controlled Diagnosis of Hallucinations in Medical Text Summarization",
+    "authors": [
+      "Suhas BN",
+      "Han-Chin Shing",
+      "Lei Xu",
+      "Mitch Strong",
+      "Jon Burnsky"
+    ],
+    "year": 2025,
+    "abstract": "Hallucinations in large language models (LLMs) during summarization of patient-clinician dialogues pose significant risks to patient care and clinical decision-making. However, the phenomenon remains understudied in the clinical domain, with uncertainty surrounding the applicability of general-domain hallucination detectors. The rarity and randomness of hallucinations further complicate their investigation. In this paper, we conduct an evaluation of hallucination detection methods in the medical domain, and construct two datasets for the purpose: A fact-controlled Leave-N-out dataset -- genera",
+    "pdf_url": "https://arxiv.org/pdf/2506.00448v1",
+    "query": "SelfCheckGPT hallucination detection sampling"
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.07008v1",
+    "arxiv_id": "1906.07008v1",
+    "title": "Hallucinated Adversarial Learning for Robust Visual Tracking",
+    "authors": [
+      "Qiangqiang Wu",
+      "Zhihui Chen",
+      "Lin Cheng",
+      "Yan Yan",
+      "Bo Li"
+    ],
+    "year": 2019,
+    "abstract": "Humans can easily learn new concepts from just a single exemplar, mainly due to their remarkable ability to imagine or hallucinate what the unseen exemplar may look like in different settings. Incorporating such an ability to hallucinate diverse new samples of the tracked instance can help the trackers alleviate the over-fitting problem in the low-data tracking regime. To achieve this, we propose an effective adversarial approach, denoted as adversarial \"hallucinator\" (AH), for robust visual tracking. The proposed AH is designed to firstly learn transferable non-linear deformations between a p",
+    "pdf_url": "https://arxiv.org/pdf/1906.07008v1",
+    "query": "SelfCheckGPT hallucination detection sampling"
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.21473v1",
+    "arxiv_id": "2509.21473v1",
+    "title": "Are Hallucinations Bad Estimations?",
+    "authors": [
+      "Hude Liu",
+      "Jerry Yao-Chieh Hu",
+      "Jennifer Yuntong Zhang",
+      "Zhao Song",
+      "Han Liu"
+    ],
+    "year": 2025,
+    "abstract": "We formalize hallucinations in generative models as failures to link an estimate to any plausible cause. Under this interpretation, we show that even loss-minimizing optimal estimators still hallucinate. We confirm this with a general high probability lower bound on hallucinate rate for generic data distributions. This reframes hallucination as structural misalignment between loss minimization and human-acceptable outputs, and hence estimation errors induced by miscalibration. Experiments on coin aggregation, open-ended QA, and text-to-image support our theory.",
+    "pdf_url": "https://arxiv.org/pdf/2509.21473v1",
+    "query": "SelfCheckGPT hallucination detection sampling"
+  },
+  {
+    "id": "http://arxiv.org/abs/2502.15844v2",
+    "arxiv_id": "2502.15844v2",
+    "title": "Hallucination Detection in Large Language Models with Metamorphic Relations",
+    "authors": [
+      "Borui Yang",
+      "Md Afif Al Mamun",
+      "Jie M. Zhang",
+      "Gias Uddin"
+    ],
+    "year": 2025,
+    "abstract": "Large Language Models (LLMs) are prone to hallucinations, e.g., factually incorrect information, in their responses. These hallucinations present challenges for LLM-based applications that demand high factual accuracy. Existing hallucination detection methods primarily depend on external resources, which can suffer from issues such as low availability, incomplete coverage, privacy concerns, high latency, low reliability, and poor scalability. There are also methods depending on output probabilities, which are often inaccessible for closed-source LLMs like GPT models. This paper presents MetaQA",
+    "pdf_url": "https://arxiv.org/pdf/2502.15844v2",
+    "query": "SelfCheckGPT hallucination detection sampling"
+  },
+  {
+    "id": "http://arxiv.org/abs/1712.09993v2",
+    "arxiv_id": "1712.09993v2",
+    "title": "First Data Release of the ESO-ARO Public Survey SAMPLING --- SMT \"All-sky\" Mapping of PLanck Interstellar Nebulae in the Galaxy",
+    "authors": [
+      "Ke Wang",
+      "Sarolta Zahorecz",
+      "Maria R. Cunningham",
+      "L. Viktor Toth",
+      "Tie Liu"
+    ],
+    "year": 2017,
+    "abstract": "We make the first data release (DR1) of the ongoing ESO Public Survey SAMPLING (http://dx.doi.org/10.7910/DVN/0L8NHX). DR1 comprises of 124 fields distributed in $70^\\circ < l < 216^\\circ$, $-35^\\circ < b < 25^\\circ$. The 12CO and 13CO (2-1) cubes are gridded in $8\"$ pixels, with an effective resolution of $36\"$. The channel width is 0.33 km/s and the RMS noise is $T_{\\rm mb}<0.2$ K. Once completed, SAMPLING and complementary surveys will initiate the first major step forward to characterize molecular clouds and star formation on truly Galactic scales.",
+    "pdf_url": "https://arxiv.org/pdf/1712.09993v2",
+    "query": "SelfCheckGPT hallucination detection sampling"
+  },
+  {
+    "id": "http://arxiv.org/abs/1012.2631v2",
+    "arxiv_id": "1012.2631v2",
+    "title": "Monte Carlo uncertainty estimation for wavelength calibration",
+    "authors": [
+      "Thang H. L.",
+      "Nguyen D. D.",
+      "Dung D. N."
+    ],
+    "year": 2010,
+    "abstract": "CIPM published the Supplement I for GUM in 2008 as not only an alternative approach to estimate the uncertainty for a given calibration measurement but also as a proper uncertainty estimation one, whenever any of the conditions imposed in GUM which must be satisfied does not hold [1, 2]. Before the introduction of the new approach in the Supplement I, namely Monte Carlo (MC) method, the GUM rules have been always applied even if in cases where the mentioned conditions were not fulfilled. After or even before the official introduction of this MC method, a number of published papers in uncertain",
+    "pdf_url": "https://arxiv.org/pdf/1012.2631v2",
+    "query": "LLM confidence calibration uncertainty estimation factual"
+  },
+  {
+    "id": "http://arxiv.org/abs/2306.13063v2",
+    "arxiv_id": "2306.13063v2",
+    "title": "Can LLMs Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation in LLMs",
+    "authors": [
+      "Miao Xiong",
+      "Zhiyuan Hu",
+      "Xinyang Lu",
+      "Yifei Li",
+      "Jie Fu"
+    ],
+    "year": 2023,
+    "abstract": "Empowering large language models to accurately express confidence in their answers is essential for trustworthy decision-making. Previous confidence elicitation methods, which primarily rely on white-box access to internal model information or model fine-tuning, have become less suitable for LLMs, especially closed-source commercial APIs. This leads to a growing need to explore the untapped area of black-box approaches for LLM uncertainty estimation. To better break down the problem, we define a systematic framework with three components: prompting strategies for eliciting verbalized confidenc",
+    "pdf_url": "https://arxiv.org/pdf/2306.13063v2",
+    "query": "LLM confidence calibration uncertainty estimation factual"
+  },
+  {
+    "id": "http://arxiv.org/abs/2301.09126v2",
+    "arxiv_id": "2301.09126v2",
+    "title": "Propagation of Linear Uncertainties through Multiline Thru-Reflect-Line Calibration",
+    "authors": [
+      "Ziad Hatab",
+      "Michael Ernst Gadringer",
+      "Wolfgang B\u00f6sch"
+    ],
+    "year": 2023,
+    "abstract": "This study proposes a linear approach for propagating uncertainties in the multiline thru-reflect-line (TRL) calibration method for vector network analyzers. The multiline TRL formulation we are proposing applies the law of uncertainty propagation as outlined in the ISO Guide to the Expression of Uncertainty in Measurement (GUM) to both measurement and model uncertainties. In addition, we conducted a Monte Carlo analysis using a combination of measured and synthetic data to model various uncertainties, such as additive noise, reflect asymmetry, line mismatch, and line length offset. The result",
+    "pdf_url": "https://arxiv.org/pdf/2301.09126v2",
+    "query": "LLM confidence calibration uncertainty estimation factual"
+  },
+  {
+    "id": "http://arxiv.org/abs/2302.02622v1",
+    "arxiv_id": "2302.02622v1",
+    "title": "Uncertainty Calibration and its Application to Object Detection",
+    "authors": [
+      "Fabian K\u00fcppers"
+    ],
+    "year": 2023,
+    "abstract": "Image-based environment perception is an important component especially for driver assistance systems or autonomous driving. In this scope, modern neuronal networks are used to identify multiple objects as well as the according position and size information within a single frame. The performance of such an object detection model is important for the overall performance of the whole system. However, a detection model might also predict these objects under a certain degree of uncertainty. [...]\n  In this work, we examine the semantic uncertainty (which object type?) as well as the spatial uncert",
+    "pdf_url": "https://arxiv.org/pdf/2302.02622v1",
+    "query": "LLM confidence calibration uncertainty estimation factual"
+  },
+  {
+    "id": "http://arxiv.org/abs/2508.17768v1",
+    "arxiv_id": "2508.17768v1",
+    "title": "Towards Trustworthy Breast Tumor Segmentation in Ultrasound using Monte Carlo Dropout and Deep Ensembles for Epistemic Uncertainty Estimation",
+    "authors": [
+      "Toufiq Musah",
+      "Chinasa Kalaiwo",
+      "Maimoona Akram",
+      "Ubaida Napari Abdulai",
+      "Maruf Adewole"
+    ],
+    "year": 2025,
+    "abstract": "Automated segmentation of BUS images is important for precise lesion delineation and tumor characterization, but is challenged by inherent artifacts and dataset inconsistencies. In this work, we evaluate the use of a modified Residual Encoder U-Net for breast ultrasound segmentation, with a focus on uncertainty quantification. We identify and correct for data duplication in the BUSI dataset, and use a deduplicated subset for more reliable estimates of generalization performance. Epistemic uncertainty is quantified using Monte Carlo dropout, deep ensembles, and their combination. Models are ben",
+    "pdf_url": "https://arxiv.org/pdf/2508.17768v1",
+    "query": "LLM confidence calibration uncertainty estimation factual"
+  },
+  {
+    "id": "http://arxiv.org/abs/2406.13415v1",
+    "arxiv_id": "2406.13415v1",
+    "title": "Factual Confidence of LLMs: on Reliability and Robustness of Current Estimators",
+    "authors": [
+      "Mat\u00e9o Mahaut",
+      "Laura Aina",
+      "Paula Czarnowska",
+      "Momchil Hardalov",
+      "Thomas M\u00fcller"
+    ],
+    "year": 2024,
+    "abstract": "Large Language Models (LLMs) tend to be unreliable in the factuality of their answers. To address this problem, NLP researchers have proposed a range of techniques to estimate LLM's confidence over facts. However, due to the lack of a systematic comparison, it is not clear how the different methods compare to one another. To fill this gap, we present a survey and empirical comparison of estimators of factual confidence. We define an experimental framework allowing for fair comparison, covering both fact-verification and question answering. Our experiments across a series of LLMs indicate that ",
+    "pdf_url": "https://arxiv.org/pdf/2406.13415v1",
+    "query": "LLM confidence calibration uncertainty estimation factual"
+  },
+  {
+    "id": "http://arxiv.org/abs/2411.13343v1",
+    "arxiv_id": "2411.13343v1",
+    "title": "Fact-Level Confidence Calibration and Self-Correction",
+    "authors": [
+      "Yige Yuan",
+      "Bingbing Xu",
+      "Hexiang Tan",
+      "Fei Sun",
+      "Teng Xiao"
+    ],
+    "year": 2024,
+    "abstract": "Confidence calibration in LLMs, i.e., aligning their self-assessed confidence with the actual accuracy of their responses, enabling them to self-evaluate the correctness of their outputs. However, current calibration methods for LLMs typically estimate two scalars to represent overall response confidence and correctness, which is inadequate for long-form generation where the response includes multiple atomic facts and may be partially confident and correct. These methods also overlook the relevance of each fact to the query. To address these challenges, we propose a Fact-Level Calibration fram",
+    "pdf_url": "https://arxiv.org/pdf/2411.13343v1",
+    "query": "LLM confidence calibration uncertainty estimation factual"
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.24505v1",
+    "arxiv_id": "2510.24505v1",
+    "title": "CritiCal: Can Critique Help LLM Uncertainty or Confidence Calibration?",
+    "authors": [
+      "Qing Zong",
+      "Jiayu Liu",
+      "Tianshi Zheng",
+      "Chunyang Li",
+      "Baixuan Xu"
+    ],
+    "year": 2025,
+    "abstract": "Accurate confidence calibration in Large Language Models (LLMs) is critical for safe use in high-stakes domains, where clear verbalized confidence enhances user trust. Traditional methods that mimic reference confidence expressions often fail to capture the reasoning needed for accurate confidence assessment. We propose natural language critiques as a solution, ideally suited for confidence calibration, as precise gold confidence labels are hard to obtain and often require multiple generations. This paper studies how natural language critiques can enhance verbalized confidence, addressing: (1)",
+    "pdf_url": "https://arxiv.org/pdf/2510.24505v1",
+    "query": "LLM confidence calibration uncertainty estimation factual"
+  },
+  {
+    "id": "http://arxiv.org/abs/2206.10209v2",
+    "arxiv_id": "2206.10209v2",
+    "title": "Propagation of Measurement and Model Uncertainties through Multiline TRL Calibration",
+    "authors": [
+      "Ziad Hatab",
+      "Michael Gadringer",
+      "Wolfgang B\u00f6sch"
+    ],
+    "year": 2022,
+    "abstract": "In this work, we present a linear uncertainty (LU) propagation treatment of measurement and model uncertainties in multiline thru-reflect-line (TRL) calibration. The proposed method is in accordance with the ISO Guide to the Expression of Uncertainty in Measurement (GUM). We demonstrate with numerical simulation based on the Monte Carlo (MC) method that our proposed LU method delivers identical uncertainty as the MC method but in a more efficient way.",
+    "pdf_url": "https://arxiv.org/pdf/2206.10209v2",
+    "query": "LLM confidence calibration uncertainty estimation factual"
+  },
+  {
+    "id": "http://arxiv.org/abs/2411.02988v2",
+    "arxiv_id": "2411.02988v2",
+    "title": "Confidence Calibration of Classifiers with Many Classes",
+    "authors": [
+      "Adrien LeCoz",
+      "St\u00e9phane Herbin",
+      "Faouzi Adjed"
+    ],
+    "year": 2024,
+    "abstract": "For classification models based on neural networks, the maximum predicted class probability is often used as a confidence score. This score rarely predicts well the probability of making a correct prediction and requires a post-processing calibration step. However, many confidence calibration methods fail for problems with many classes. To address this issue, we transform the problem of calibrating a multiclass classifier into calibrating a single surrogate binary classifier. This approach allows for more efficient use of standard calibration methods. We evaluate our approach on numerous neura",
+    "pdf_url": "https://arxiv.org/pdf/2411.02988v2",
+    "query": "LLM confidence calibration uncertainty estimation factual"
+  },
+  {
+    "id": "http://arxiv.org/abs/2410.03595v1",
+    "arxiv_id": "2410.03595v1",
+    "title": "Understanding Reasoning in Chain-of-Thought from the Hopfieldian View",
+    "authors": [
+      "Lijie Hu",
+      "Liang Liu",
+      "Shu Yang",
+      "Xin Chen",
+      "Zhen Tan"
+    ],
+    "year": 2024,
+    "abstract": "Large Language Models have demonstrated remarkable abilities across various tasks, with Chain-of-Thought (CoT) prompting emerging as a key technique to enhance reasoning capabilities. However, existing research primarily focuses on improving performance, lacking a comprehensive framework to explain and understand the fundamental factors behind CoT's success. To bridge this gap, we introduce a novel perspective grounded in the Hopfieldian view of cognition in cognitive neuroscience. We establish a connection between CoT reasoning and key cognitive elements such as stimuli, actions, neural popul",
+    "pdf_url": "https://arxiv.org/pdf/2410.03595v1",
+    "query": "chain of thought self-verification reasoning"
+  },
+  {
+    "id": "http://arxiv.org/abs/2601.03559v1",
+    "arxiv_id": "2601.03559v1",
+    "title": "DiffCoT: Diffusion-styled Chain-of-Thought Reasoning in LLMs",
+    "authors": [
+      "Shidong Cao",
+      "Hongzhan Lin",
+      "Yuxuan Gu",
+      "Ziyang Luo",
+      "Jing Ma"
+    ],
+    "year": 2026,
+    "abstract": "Chain-of-Thought (CoT) reasoning improves multi-step mathematical problem solving in large language models but remains vulnerable to exposure bias and error accumulation, as early mistakes propagate irreversibly through autoregressive decoding. In this work, we propose DiffCoT, a diffusion-styled CoT framework that reformulates CoT reasoning as an iterative denoising process. DiffCoT integrates diffusion principles at the reasoning-step level via a sliding-window mechanism, enabling unified generation and retrospective correction of intermediate steps while preserving token-level autoregressio",
+    "pdf_url": "https://arxiv.org/pdf/2601.03559v1",
+    "query": "chain of thought self-verification reasoning"
+  },
+  {
+    "id": "http://arxiv.org/abs/2503.09567v5",
+    "arxiv_id": "2503.09567v5",
+    "title": "Towards Reasoning Era: A Survey of Long Chain-of-Thought for Reasoning Large Language Models",
+    "authors": [
+      "Qiguang Chen",
+      "Libo Qin",
+      "Jinhao Liu",
+      "Dengyun Peng",
+      "Jiannan Guan"
+    ],
+    "year": 2025,
+    "abstract": "Recent advancements in reasoning with large language models (RLLMs), such as OpenAI-O1 and DeepSeek-R1, have demonstrated their impressive capabilities in complex domains like mathematics and coding. A central factor in their success lies in the application of long chain-of-thought (Long CoT) characteristics, which enhance reasoning abilities and enable the solution of intricate problems. However, despite these developments, a comprehensive survey on Long CoT is still lacking, limiting our understanding of its distinctions from traditional short chain-of-thought (Short CoT) and complicating on",
+    "pdf_url": "https://arxiv.org/pdf/2503.09567v5",
+    "query": "chain of thought self-verification reasoning"
+  },
+  {
+    "id": "http://arxiv.org/abs/2504.16021v1",
+    "arxiv_id": "2504.16021v1",
+    "title": "Navigating the State of Cognitive Flow: Context-Aware AI Interventions for Effective Reasoning Support",
+    "authors": [
+      "Dinithi Dissanayake",
+      "Suranga Nanayakkara"
+    ],
+    "year": 2025,
+    "abstract": "Flow theory describes an optimal cognitive state where individuals experience deep focus and intrinsic motivation when a task's difficulty aligns with their skill level. In AI-augmented reasoning, interventions that disrupt the state of cognitive flow can hinder rather than enhance decision-making. This paper proposes a context-aware cognitive augmentation framework that adapts interventions based on three key contextual factors: type, timing, and scale. By leveraging multimodal behavioral cues (e.g., gaze behavior, typing hesitation, interaction speed), AI can dynamically adjust cognitive sup",
+    "pdf_url": "https://arxiv.org/pdf/2504.16021v1",
+    "query": "chain of thought self-verification reasoning"
+  },
+  {
+    "id": "http://arxiv.org/abs/2306.14308v1",
+    "arxiv_id": "2306.14308v1",
+    "title": "Let's Do a Thought Experiment: Using Counterfactuals to Improve Moral Reasoning",
+    "authors": [
+      "Xiao Ma",
+      "Swaroop Mishra",
+      "Ahmad Beirami",
+      "Alex Beutel",
+      "Jilin Chen"
+    ],
+    "year": 2023,
+    "abstract": "Language models still struggle on moral reasoning, despite their impressive performance in many other tasks. In particular, the Moral Scenarios task in MMLU (Multi-task Language Understanding) is among the worst performing tasks for many language models, including GPT-3. In this work, we propose a new prompting framework, Thought Experiments, to teach language models to do better moral reasoning using counterfactuals. Experiment results show that our framework elicits counterfactual questions and answers from the model, which in turn helps improve the accuracy on Moral Scenarios task by 9-16% ",
+    "pdf_url": "https://arxiv.org/pdf/2306.14308v1",
+    "query": "chain of thought self-verification reasoning"
+  },
+  {
+    "id": "http://arxiv.org/abs/2305.17306v1",
+    "arxiv_id": "2305.17306v1",
+    "title": "Chain-of-Thought Hub: A Continuous Effort to Measure Large Language Models' Reasoning Performance",
+    "authors": [
+      "Yao Fu",
+      "Litu Ou",
+      "Mingyu Chen",
+      "Yuhao Wan",
+      "Hao Peng"
+    ],
+    "year": 2023,
+    "abstract": "As large language models (LLMs) are continuously being developed, their evaluation becomes increasingly important yet challenging. This work proposes Chain-of-Thought Hub, an open-source evaluation suite on the multi-step reasoning capabilities of large language models. We are interested in this setting for two reasons: (1) from the behavior of GPT and PaLM model family, we observe that complex reasoning is likely to be a key differentiator between weaker and stronger LLMs; (2) we envisage large language models to become the next-generation computational platform and foster an ecosystem of LLM",
+    "pdf_url": "https://arxiv.org/pdf/2305.17306v1",
+    "query": "chain of thought self-verification reasoning"
+  },
+  {
+    "id": "http://arxiv.org/abs/2306.03872v3",
+    "arxiv_id": "2306.03872v3",
+    "title": "Deductive Verification of Chain-of-Thought Reasoning",
+    "authors": [
+      "Zhan Ling",
+      "Yunhao Fang",
+      "Xuanlin Li",
+      "Zhiao Huang",
+      "Mingu Lee"
+    ],
+    "year": 2023,
+    "abstract": "Large Language Models (LLMs) significantly benefit from Chain-of-Thought (CoT) prompting in performing various reasoning tasks. While CoT allows models to produce more comprehensive reasoning processes, its emphasis on intermediate reasoning steps can inadvertently introduce hallucinations and accumulated errors, thereby limiting models' ability to solve complex reasoning tasks. Inspired by how humans engage in careful and meticulous deductive logical reasoning processes to solve tasks, we seek to enable language models to perform explicit and rigorous deductive reasoning, and also ensure the ",
+    "pdf_url": "https://arxiv.org/pdf/2306.03872v3",
+    "query": "chain of thought self-verification reasoning"
+  },
+  {
+    "id": "http://arxiv.org/abs/2503.08679v4",
+    "arxiv_id": "2503.08679v4",
+    "title": "Chain-of-Thought Reasoning In The Wild Is Not Always Faithful",
+    "authors": [
+      "Iv\u00e1n Arcuschin",
+      "Jett Janiak",
+      "Robert Krzyzanowski",
+      "Senthooran Rajamanoharan",
+      "Neel Nanda"
+    ],
+    "year": 2025,
+    "abstract": "Chain-of-Thought (CoT) reasoning has significantly advanced state-of-the-art AI capabilities. However, recent studies have shown that CoT reasoning is not always faithful when models face an explicit bias in their prompts, i.e., the CoT can give an incorrect picture of how models arrive at conclusions. We go further and show that unfaithful CoT can also occur on realistic prompts with no artificial bias. We find that when separately presented with the questions \"Is X bigger than Y?\" and \"Is Y bigger than X?\", models sometimes produce superficially coherent arguments to justify systematically a",
+    "pdf_url": "https://arxiv.org/pdf/2503.08679v4",
+    "query": "chain of thought self-verification reasoning"
+  },
+  {
+    "id": "http://arxiv.org/abs/2406.04271v2",
+    "arxiv_id": "2406.04271v2",
+    "title": "Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models",
+    "authors": [
+      "Ling Yang",
+      "Zhaochen Yu",
+      "Tianjun Zhang",
+      "Shiyi Cao",
+      "Minkai Xu"
+    ],
+    "year": 2024,
+    "abstract": "We introduce Buffer of Thoughts (BoT), a novel and versatile thought-augmented reasoning approach for enhancing accuracy, efficiency and robustness of large language models (LLMs). Specifically, we propose meta-buffer to store a series of informative high-level thoughts, namely thought-template, distilled from the problem-solving processes across various tasks. Then for each problem, we retrieve a relevant thought-template and adaptively instantiate it with specific reasoning structures to conduct efficient reasoning. To guarantee the scalability and stability, we further propose buffer-manage",
+    "pdf_url": "https://arxiv.org/pdf/2406.04271v2",
+    "query": "chain of thought self-verification reasoning"
+  },
+  {
+    "id": "http://arxiv.org/abs/2410.08165v2",
+    "arxiv_id": "2410.08165v2",
+    "title": "Chain-of-Sketch: Enabling Global Visual Reasoning",
+    "authors": [
+      "Aryo Lotfi",
+      "Enrico Fini",
+      "Samy Bengio",
+      "Moin Nabi",
+      "Emmanuel Abbe"
+    ],
+    "year": 2024,
+    "abstract": "Modern vision models have achieved remarkable success in benchmarks where local features provide critical information about the target. There is now a growing interest in tackling tasks requiring more global reasoning, where local features do not provide significant information. Minsky and Papert put forward such tasks in 1969 with their connectivity study, exposing the limitations of the perceptron model. In this paper, we introduce an expanded set of global visual datasets involving graphs, strings, mazes, and image grids. We show that large vision models still struggle to learn these tasks ",
+    "pdf_url": "https://arxiv.org/pdf/2410.08165v2",
+    "query": "chain of thought self-verification reasoning"
+  },
+  {
+    "id": "http://arxiv.org/abs/1411.2188v1",
+    "arxiv_id": "1411.2188v1",
+    "title": "Semantic-based Detection of Segment Outliers and Unusual Events for Wireless Sensor Networks",
+    "authors": [
+      "Lianli Gao",
+      "Michael Bruenig",
+      "Jane Hunter"
+    ],
+    "year": 2014,
+    "abstract": "Environmental scientists have increasingly been deploying wireless sensor networks to capture valuable data that measures and records precise information about our environment. One of the major challenges associated with wireless sensor networks is the quality of the data and more specifically the detection of segment outliers and unusual events. Most previous research has focused on detecting outliers that are errors that are caused by unreliable sensors and sensor nodes. However, there is an urgent need for the development of new tools capable of identifying, tagging and visualizing erroneou",
+    "pdf_url": "https://arxiv.org/pdf/1411.2188v1",
+    "query": "LSCD semantic entropy hallucination detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2508.14496v3",
+    "arxiv_id": "2508.14496v3",
+    "title": "Semantic Energy: Detecting LLM Hallucination Beyond Entropy",
+    "authors": [
+      "Huan Ma",
+      "Jiadong Pan",
+      "Jing Liu",
+      "Yan Chen",
+      "Joey Tianyi Zhou"
+    ],
+    "year": 2025,
+    "abstract": "Large Language Models (LLMs) are being increasingly deployed in real-world applications, but they remain susceptible to hallucinations, which produce fluent yet incorrect responses and lead to erroneous decision-making. Uncertainty estimation is a feasible approach to detect such hallucinations. For example, semantic entropy estimates uncertainty by considering the semantic diversity across multiple sampled responses, thus identifying hallucinations. However, semantic entropy relies on post-softmax probabilities and fails to capture the model's inherent uncertainty, causing it to be ineffectiv",
+    "pdf_url": "https://arxiv.org/pdf/2508.14496v3",
+    "query": "LSCD semantic entropy hallucination detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2504.03579v2",
+    "arxiv_id": "2504.03579v2",
+    "title": "Hallucination Detection on a Budget: Efficient Bayesian Estimation of Semantic Entropy",
+    "authors": [
+      "Kamil Ciosek",
+      "Nicol\u00f2 Felicioni",
+      "Sina Ghiassian"
+    ],
+    "year": 2025,
+    "abstract": "Detecting whether an LLM hallucinates is an important research challenge. One promising way of doing so is to estimate the semantic entropy (Farquhar et al., 2024) of the distribution of generated sequences. We propose a new algorithm for doing that, with two main advantages. First, due to us taking the Bayesian approach, we achieve a much better quality of semantic entropy estimates for a given budget of samples from the LLM. Second, we are able to tune the number of samples adaptively so that `harder' contexts receive more samples. We demonstrate empirically that our approach systematically ",
+    "pdf_url": "https://arxiv.org/pdf/2504.03579v2",
+    "query": "LSCD semantic entropy hallucination detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.17445v2",
+    "arxiv_id": "2509.17445v2",
+    "title": "Semantic Reformulation Entropy for Robust Hallucination Detection in QA Tasks",
+    "authors": [
+      "Chaodong Tong",
+      "Qi Zhang",
+      "Lei Jiang",
+      "Yanbing Liu",
+      "Nannan Sun"
+    ],
+    "year": 2025,
+    "abstract": "Reliable question answering with large language models (LLMs) is challenged by hallucinations, fluent but factually incorrect outputs arising from epistemic uncertainty. Existing entropy-based semantic-level uncertainty estimation methods are limited by sampling noise and unstable clustering of variable-length answers. We propose Semantic Reformulation Entropy (SRE), which improves uncertainty estimation in two ways. First, input-side semantic reformulations produce faithful paraphrases, expand the estimation space, and reduce biases from superficial decoder tendencies. Second, progressive, en",
+    "pdf_url": "https://arxiv.org/pdf/2509.17445v2",
+    "query": "LSCD semantic entropy hallucination detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2406.15927v1",
+    "arxiv_id": "2406.15927v1",
+    "title": "Semantic Entropy Probes: Robust and Cheap Hallucination Detection in LLMs",
+    "authors": [
+      "Jannik Kossen",
+      "Jiatong Han",
+      "Muhammed Razzak",
+      "Lisa Schut",
+      "Shreshth Malik"
+    ],
+    "year": 2024,
+    "abstract": "We propose semantic entropy probes (SEPs), a cheap and reliable method for uncertainty quantification in Large Language Models (LLMs). Hallucinations, which are plausible-sounding but factually incorrect and arbitrary model generations, present a major challenge to the practical adoption of LLMs. Recent work by Farquhar et al. (2024) proposes semantic entropy (SE), which can detect hallucinations by estimating uncertainty in the space semantic meaning for a set of model generations. However, the 5-to-10-fold increase in computation cost associated with SE computation hinders practical adoption",
+    "pdf_url": "https://arxiv.org/pdf/2406.15927v1",
+    "query": "LSCD semantic entropy hallucination detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2503.20504v2",
+    "arxiv_id": "2503.20504v2",
+    "title": "UniVRSE: Unified Vision-conditioned Response Semantic Entropy for Hallucination Detection in Medical Vision-Language Models",
+    "authors": [
+      "Zehui Liao",
+      "Shishuai Hu",
+      "Ke Zou",
+      "Mengyuan Jin",
+      "Yanning Zhang"
+    ],
+    "year": 2025,
+    "abstract": "Vision-language models (VLMs) have great potential for medical image understanding, particularly in Visual Report Generation (VRG) and Visual Question Answering (VQA), but they may generate hallucinated responses that contradict visual evidence, limiting clinical deployment. Although uncertainty-based hallucination detection methods are intuitive and effective, they are limited in medical VLMs. Specifically, Semantic Entropy (SE), effective in text-only LLMs, becomes less reliable in medical VLMs due to their overconfidence from strong language priors. To address this challenge, we propose Uni",
+    "pdf_url": "https://arxiv.org/pdf/2503.20504v2",
+    "query": "LSCD semantic entropy hallucination detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/gr-qc/0003089v1",
+    "arxiv_id": "0003089v1",
+    "title": "A Spacetime Foam Approach to the Schwarzschild-de Sitter Entropy",
+    "authors": [
+      "Remo Garattini"
+    ],
+    "year": 2000,
+    "abstract": "The entropy for a black hole in a de Sitter space is approached within the framework of spacetime foam. A simple model, made by $N$ wormholes in a semiclassical approximation, is taken under examination to compute the entropy for such a case. An extension to the extreme case when the black hole and cosmological horizons are equal is discussed.",
+    "pdf_url": "https://arxiv.org/pdf/gr-qc/0003089v1",
+    "query": "LSCD semantic entropy hallucination detection"
+  }
+]

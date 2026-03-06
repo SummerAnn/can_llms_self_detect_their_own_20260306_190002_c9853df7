@@ -1,0 +1,1045 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.23547v1",
+    "arxiv_id": "2512.23547v1",
+    "title": "Lie to Me: Knowledge Graphs for Robust Hallucination Self-Detection in LLMs",
+    "authors": [
+      "Sahil Kale",
+      "Antonio Luca Alfeo"
+    ],
+    "year": 2025,
+    "abstract": "Hallucinations, the generation of apparently convincing yet false statements, remain a major barrier to the safe deployment of LLMs. Building on the strong performance of self-detection methods, we examine the use of structured knowledge representations, namely knowledge graphs, to improve hallucination self-detection. Specifically, we propose a simple yet powerful approach that enriches hallucination self-detection by (i) converting LLM responses into knowledge graphs of entities and relations,",
+    "pdf_url": "https://arxiv.org/pdf/2512.23547v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "query": "LLM hallucination self-detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.03518v1",
+    "arxiv_id": "2509.03518v1",
+    "title": "Can LLMs Lie? Investigation beyond Hallucination",
+    "authors": [
+      "Haoran Huan",
+      "Mihir Prabhudesai",
+      "Mengning Wu",
+      "Shantanu Jaiswal",
+      "Deepak Pathak"
+    ],
+    "year": 2025,
+    "abstract": "Large language models (LLMs) have demonstrated impressive capabilities across a variety of tasks, but their increasing autonomy in real-world applications raises concerns about their trustworthiness. While hallucinations-unintentional falsehoods-have been widely studied, the phenomenon of lying, where an LLM knowingly generates falsehoods to achieve an ulterior objective, remains underexplored. In this work, we systematically investigate the lying behavior of LLMs, differentiating it from halluc",
+    "pdf_url": "https://arxiv.org/pdf/2509.03518v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "query": "LLM hallucination self-detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2506.09886v2",
+    "arxiv_id": "2506.09886v2",
+    "title": "Probabilistic distances-based hallucination detection in LLMs with RAG",
+    "authors": [
+      "Rodion Oblovatny",
+      "Alexandra Kuleshova",
+      "Konstantin Polev",
+      "Alexey Zaytsev"
+    ],
+    "year": 2025,
+    "abstract": "Detecting hallucinations in large language models (LLMs) is critical for their safety in many applications. Without proper detection, these systems often provide harmful, unreliable answers. In recent years, LLMs have been actively used in retrieval-augmented generation (RAG) settings. However, hallucinations remain even in this setting, and while numerous hallucination detection methods have been proposed, most approaches are not specifically designed for RAG systems. To overcome this limitatio",
+    "pdf_url": "https://arxiv.org/pdf/2506.09886v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "query": "LLM hallucination self-detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2506.00448v1",
+    "arxiv_id": "2506.00448v1",
+    "title": "Fact-Controlled Diagnosis of Hallucinations in Medical Text Summarization",
+    "authors": [
+      "Suhas BN",
+      "Han-Chin Shing",
+      "Lei Xu",
+      "Mitch Strong",
+      "Jon Burnsky"
+    ],
+    "year": 2025,
+    "abstract": "Hallucinations in large language models (LLMs) during summarization of patient-clinician dialogues pose significant risks to patient care and clinical decision-making. However, the phenomenon remains understudied in the clinical domain, with uncertainty surrounding the applicability of general-domain hallucination detectors. The rarity and randomness of hallucinations further complicate their investigation. In this paper, we conduct an evaluation of hallucination detection methods in the medical",
+    "pdf_url": "https://arxiv.org/pdf/2506.00448v1",
+    "categories": [
+      "cs.CL"
+    ],
+    "query": "LLM hallucination self-detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2507.20836v4",
+    "arxiv_id": "2507.20836v4",
+    "title": "First Hallucination Tokens Are Different from Conditional Ones",
+    "authors": [
+      "Jakob Snel",
+      "Seong Joon Oh"
+    ],
+    "year": 2025,
+    "abstract": "Large Language Models (LLMs) hallucinate, and detecting these cases is key to ensuring trust. While many approaches address hallucination detection at the response or span level, recent work explores token-level detection, enabling more fine-grained intervention. However, the distribution of hallucination signal across sequences of hallucinated tokens remains unexplored. We leverage token-level annotations from the RAGTruth corpus and find that the first hallucinated token is far more detectable",
+    "pdf_url": "https://arxiv.org/pdf/2507.20836v4",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "query": "LLM hallucination self-detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.21473v1",
+    "arxiv_id": "2509.21473v1",
+    "title": "Are Hallucinations Bad Estimations?",
+    "authors": [
+      "Hude Liu",
+      "Jerry Yao-Chieh Hu",
+      "Jennifer Yuntong Zhang",
+      "Zhao Song",
+      "Han Liu"
+    ],
+    "year": 2025,
+    "abstract": "We formalize hallucinations in generative models as failures to link an estimate to any plausible cause. Under this interpretation, we show that even loss-minimizing optimal estimators still hallucinate. We confirm this with a general high probability lower bound on hallucinate rate for generic data distributions. This reframes hallucination as structural misalignment between loss minimization and human-acceptable outputs, and hence estimation errors induced by miscalibration. Experiments on coi",
+    "pdf_url": "https://arxiv.org/pdf/2509.21473v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "cs.CV",
+      "stat.ML"
+    ],
+    "query": "LLM hallucination self-detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.07008v1",
+    "arxiv_id": "1906.07008v1",
+    "title": "Hallucinated Adversarial Learning for Robust Visual Tracking",
+    "authors": [
+      "Qiangqiang Wu",
+      "Zhihui Chen",
+      "Lin Cheng",
+      "Yan Yan",
+      "Bo Li"
+    ],
+    "year": 2019,
+    "abstract": "Humans can easily learn new concepts from just a single exemplar, mainly due to their remarkable ability to imagine or hallucinate what the unseen exemplar may look like in different settings. Incorporating such an ability to hallucinate diverse new samples of the tracked instance can help the trackers alleviate the over-fitting problem in the low-data tracking regime. To achieve this, we propose an effective adversarial approach, denoted as adversarial \"hallucinator\" (AH), for robust visual tra",
+    "pdf_url": "https://arxiv.org/pdf/1906.07008v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "query": "LLM hallucination self-detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.03107v1",
+    "arxiv_id": "2512.03107v1",
+    "title": "Detecting AI Hallucinations in Finance: An Information-Theoretic Method Cuts Hallucination Rate by 92%",
+    "authors": [
+      "Mainak Singha"
+    ],
+    "year": 2025,
+    "abstract": "Large language models (LLMs) produce fluent but unsupported answers - hallucinations - limiting safe deployment in high-stakes domains. We propose ECLIPSE, a framework that treats hallucination as a mismatch between a model's semantic entropy and the capacity of available evidence. We combine entropy estimation via multi-sample clustering with a novel perplexity decomposition that measures how models use retrieved evidence. We prove that under mild conditions, the resulting entropy-capacity obje",
+    "pdf_url": "https://arxiv.org/pdf/2512.03107v1",
+    "categories": [
+      "cs.LG",
+      "cs.CL",
+      "q-fin.CP",
+      "stat.ML"
+    ],
+    "query": "LLM hallucination self-detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.07364v1",
+    "arxiv_id": "2511.07364v1",
+    "title": "Self-Evaluating LLMs for Multi-Step Tasks: Stepwise Confidence Estimation for Failure Detection",
+    "authors": [
+      "Vaibhav Mavi",
+      "Shubh Jaroria",
+      "Weiqi Sun"
+    ],
+    "year": 2025,
+    "abstract": "Reliability and failure detection of large language models (LLMs) is critical for their deployment in high-stakes, multi-step reasoning tasks. Prior work explores confidence estimation for self-evaluating LLM-scorer systems, with confidence scorers estimating the likelihood of errors in LLM responses. However, most methods focus on single-step outputs and overlook the challenges of multi-step reasoning. In this work, we extend self-evaluation techniques to multi-step tasks, testing two intuitive",
+    "pdf_url": "https://arxiv.org/pdf/2511.07364v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "query": "LLM hallucination self-detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2406.06950v2",
+    "arxiv_id": "2406.06950v2",
+    "title": "A Probabilistic Framework for LLM Hallucination Detection via Belief Tree Propagation",
+    "authors": [
+      "Bairu Hou",
+      "Yang Zhang",
+      "Jacob Andreas",
+      "Shiyu Chang"
+    ],
+    "year": 2024,
+    "abstract": "This paper focuses on the task of hallucination detection, which aims to determine the truthfulness of LLM-generated statements. To address this problem, a popular class of methods utilize the LLM's self-consistencies in its beliefs in a set of logically related augmented statements generated by the LLM, which does not require external knowledge databases and can work with both white-box and black-box LLMs. However, in many existing approaches, the augmented statements tend to be very monotone a",
+    "pdf_url": "https://arxiv.org/pdf/2406.06950v2",
+    "categories": [
+      "cs.CL"
+    ],
+    "query": "LLM hallucination self-detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.22250v1",
+    "arxiv_id": "2512.22250v1",
+    "title": "Hallucination Detection for LLM-based Text-to-SQL Generation via Two-Stage Metamorphic Testing",
+    "authors": [
+      "Bo Yang",
+      "Yinfen Xia",
+      "Weisong Sun",
+      "Yang Liu"
+    ],
+    "year": 2025,
+    "abstract": "In Text-to-SQL generation, large language models (LLMs) have shown strong generalization and adaptability. However, LLMs sometimes generate hallucinations, i.e.,unrealistic or illogical content, which leads to incorrect SQL queries and negatively impacts downstream applications. Detecting these hallucinations is particularly challenging. Existing Text-to-SQL error detection methods, which are tailored for traditional deep learning models, face significant limitations when applied to LLMs. This i",
+    "pdf_url": "https://arxiv.org/pdf/2512.22250v1",
+    "categories": [
+      "cs.SE"
+    ],
+    "query": "LLM hallucination self-detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2601.00828v1",
+    "arxiv_id": "2601.00828v1",
+    "title": "Decomposing LLM Self-Correction: The Accuracy-Correction Paradox and Error Depth Hypothesis",
+    "authors": [
+      "Yin Li"
+    ],
+    "year": 2025,
+    "abstract": "Large Language Models (LLMs) are widely believed to possess self-correction capabilities, yet recent studies suggest that intrinsic self-correction--where models correct their own outputs without external feedback--remains largely ineffective. In this work, we systematically decompose self-correction into three distinct sub-capabilities: error detection, error localization, and error correction. Through cross-model experiments on GSM8K-Complex (n=500 per model, 346 total errors) with three major",
+    "pdf_url": "https://arxiv.org/pdf/2601.00828v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "query": "LLM hallucination self-detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2506.02696v1",
+    "arxiv_id": "2506.02696v1",
+    "title": "Shaking to Reveal: Perturbation-Based Detection of LLM Hallucinations",
+    "authors": [
+      "Jinyuan Luo",
+      "Zhen Fang",
+      "Yixuan Li",
+      "Seongheon Park",
+      "Ling Chen"
+    ],
+    "year": 2025,
+    "abstract": "Hallucination remains a key obstacle to the reliable deployment of large language models (LLMs) in real-world question answering tasks. A widely adopted strategy to detect hallucination, known as self-assessment, relies on the model's own output confidence to estimate the factual accuracy of its answers. However, this strategy assumes that the model's output distribution closely reflects the true data distribution, which may not always hold in practice. As bias accumulates through the model's la",
+    "pdf_url": "https://arxiv.org/pdf/2506.02696v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "query": "LLM hallucination self-detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2402.03744v2",
+    "arxiv_id": "2402.03744v2",
+    "title": "INSIDE: LLMs' Internal States Retain the Power of Hallucination Detection",
+    "authors": [
+      "Chao Chen",
+      "Kai Liu",
+      "Ze Chen",
+      "Yi Gu",
+      "Yue Wu"
+    ],
+    "year": 2024,
+    "abstract": "Knowledge hallucination have raised widespread concerns for the security and reliability of deployed LLMs. Previous efforts in detecting hallucinations have been employed at logit-level uncertainty estimation or language-level self-consistency evaluation, where the semantic information is inevitably lost during the token-decoding procedure. Thus, we propose to explore the dense semantic information retained within LLMs' \\textbf{IN}ternal \\textbf{S}tates for halluc\\textbf{I}nation \\textbf{DE}tect",
+    "pdf_url": "https://arxiv.org/pdf/2402.03744v2",
+    "categories": [
+      "cs.CL"
+    ],
+    "query": "LLM hallucination self-detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2502.12769v4",
+    "arxiv_id": "2502.12769v4",
+    "title": "How Much Do LLMs Hallucinate across Languages? On Realistic Multilingual Estimation of LLM Hallucination",
+    "authors": [
+      "Saad Obaid ul Islam",
+      "Anne Lauscher",
+      "Goran Glava\u0161"
+    ],
+    "year": 2025,
+    "abstract": "In the age of misinformation, hallucination - the tendency of Large Language Models (LLMs) to generate non-factual or unfaithful responses - represents the main risk for their global utility. Despite LLMs becoming increasingly multilingual, the vast majority of research on detecting and quantifying LLM hallucination are (a) English-centric and (b) focus on machine translation (MT) and summarization, tasks that are less common in realistic settings than open information seeking. In contrast, we a",
+    "pdf_url": "https://arxiv.org/pdf/2502.12769v4",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "query": "LLM hallucination self-detection"
+  },
+  {
+    "id": "http://arxiv.org/abs/2409.11353v3",
+    "arxiv_id": "2409.11353v3",
+    "title": "THaMES: An End-to-End Tool for Hallucination Mitigation and Evaluation in Large Language Models",
+    "authors": [
+      "Mengfei Liang",
+      "Archish Arun",
+      "Zekun Wu",
+      "Cristian Munoz",
+      "Jonathan Lutch"
+    ],
+    "year": 2024,
+    "abstract": "Hallucination, the generation of factually incorrect content, is a growing challenge in Large Language Models (LLMs). Existing detection and mitigation methods are often isolated and insufficient for domain-specific needs, lacking a standardized pipeline. This paper introduces THaMES (Tool for Hallucination Mitigations and EvaluationS), an integrated framework and library addressing this gap. THaMES offers an end-to-end solution for evaluating and mitigating hallucinations in LLMs, featuring aut",
+    "pdf_url": "https://arxiv.org/pdf/2409.11353v3",
+    "categories": [
+      "cs.CL"
+    ],
+    "query": "large language model self-verification hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2503.21676v2",
+    "arxiv_id": "2503.21676v2",
+    "title": "How do language models learn facts? Dynamics, curricula and hallucinations",
+    "authors": [
+      "Nicolas Zucchet",
+      "J\u00f6rg Bornschein",
+      "Stephanie Chan",
+      "Andrew Lampinen",
+      "Razvan Pascanu"
+    ],
+    "year": 2025,
+    "abstract": "Large language models accumulate vast knowledge during pre-training, yet the dynamics governing this acquisition remain poorly understood. This work investigates the learning dynamics of language models on a synthetic factual recall task, uncovering three key findings: First, language models learn in three phases, exhibiting a performance plateau before acquiring precise factual knowledge. Mechanistically, this plateau coincides with the formation of attention-based circuits that support recall.",
+    "pdf_url": "https://arxiv.org/pdf/2503.21676v2",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "query": "large language model self-verification hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.06185v2",
+    "arxiv_id": "2012.06185v2",
+    "title": "Exploring wav2vec 2.0 on speaker verification and language identification",
+    "authors": [
+      "Zhiyun Fan",
+      "Meng Li",
+      "Shiyu Zhou",
+      "Bo Xu"
+    ],
+    "year": 2020,
+    "abstract": "Wav2vec 2.0 is a recently proposed self-supervised framework for speech representation learning. It follows a two-stage training process of pre-training and fine-tuning, and performs well in speech recognition tasks especially ultra-low resource cases. In this work, we attempt to extend self-supervised framework to speaker verification and language identification. First, we use some preliminary experiments to indicate that wav2vec 2.0 can capture the information about the speaker and language. T",
+    "pdf_url": "https://arxiv.org/pdf/2012.06185v2",
+    "categories": [
+      "cs.SD",
+      "cs.CL",
+      "eess.AS"
+    ],
+    "query": "large language model self-verification hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2506.22486v1",
+    "arxiv_id": "2506.22486v1",
+    "title": "Hallucination Detection with Small Language Models",
+    "authors": [
+      "Ming Cheung"
+    ],
+    "year": 2025,
+    "abstract": "Since the introduction of ChatGPT, large language models (LLMs) have demonstrated significant utility in various tasks, such as answering questions through retrieval-augmented generation. Context can be retrieved using a vectorized database, serving as a foundation for LLMs to generate responses. However, hallucinations in responses can undermine the reliability of LLMs in practical applications, and they are not easily detectable in the absence of ground truth, particularly in question-and-answ",
+    "pdf_url": "https://arxiv.org/pdf/2506.22486v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "query": "large language model self-verification hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2402.11651v2",
+    "arxiv_id": "2402.11651v2",
+    "title": "Learning From Failure: Integrating Negative Examples when Fine-tuning Large Language Models as Agents",
+    "authors": [
+      "Renxi Wang",
+      "Haonan Li",
+      "Xudong Han",
+      "Yixuan Zhang",
+      "Timothy Baldwin"
+    ],
+    "year": 2024,
+    "abstract": "Large language models (LLMs) have achieved success in acting as agents, which interact with environments through tools such as search engines. However, LLMs are optimized for language generation instead of tool use during training or alignment, limiting their effectiveness as agents. To resolve this problem, previous work has first collected interaction trajectories between LLMs and environments, using only trajectories that successfully finished the task to fine-tune smaller models, making fine",
+    "pdf_url": "https://arxiv.org/pdf/2402.11651v2",
+    "categories": [
+      "cs.CL"
+    ],
+    "query": "large language model self-verification hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2312.10793v3",
+    "arxiv_id": "2312.10793v3",
+    "title": "Demystifying Instruction Mixing for Fine-tuning Large Language Models",
+    "authors": [
+      "Renxi Wang",
+      "Haonan Li",
+      "Minghao Wu",
+      "Yuxia Wang",
+      "Xudong Han"
+    ],
+    "year": 2023,
+    "abstract": "Instruction tuning significantly enhances the performance of large language models (LLMs) across various tasks. However, the procedure to optimizing the mixing of instruction datasets for LLM fine-tuning is still poorly understood. This study categorizes instructions into three primary types: NLP downstream tasks, coding, and general chat. We explore the effects of instruction tuning on different combinations of datasets on LLM performance, and find that certain instruction types are more advant",
+    "pdf_url": "https://arxiv.org/pdf/2312.10793v3",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "query": "large language model self-verification hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2304.12244v3",
+    "arxiv_id": "2304.12244v3",
+    "title": "WizardLM: Empowering large pre-trained language models to follow complex instructions",
+    "authors": [
+      "Can Xu",
+      "Qingfeng Sun",
+      "Kai Zheng",
+      "Xiubo Geng",
+      "Pu Zhao"
+    ],
+    "year": 2023,
+    "abstract": "Training large language models (LLMs) with open-domain instruction following data brings colossal success. However, manually creating such instruction data is very time-consuming and labor-intensive. Moreover, humans may struggle to produce high-complexity instructions. In this paper, we show an avenue for creating large amounts of instruction data with varying levels of complexity using LLM instead of humans. Starting with an initial set of instructions, we use our proposed Evol-Instruct to rew",
+    "pdf_url": "https://arxiv.org/pdf/2304.12244v3",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "query": "large language model self-verification hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2310.00259v3",
+    "arxiv_id": "2310.00259v3",
+    "title": "AutoHall: Automated Factuality Hallucination Dataset Generation for Large Language Models",
+    "authors": [
+      "Zouying Cao",
+      "Yifei Yang",
+      "XiaoJing Li",
+      "Hai Zhao"
+    ],
+    "year": 2023,
+    "abstract": "Large language models (LLMs) have gained broad applications across various domains but still struggle with hallucinations. Currently, hallucinations occur frequently in the generation of factual content and pose a great challenge to trustworthy LLMs. However, hallucination detection is hindered by the laborious and expensive manual annotation of hallucinatory content. Meanwhile, as different LLMs exhibit distinct types and rates of hallucination, the collection of hallucination datasets is inher",
+    "pdf_url": "https://arxiv.org/pdf/2310.00259v3",
+    "categories": [
+      "cs.CL"
+    ],
+    "query": "large language model self-verification hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2307.15343v2",
+    "arxiv_id": "2307.15343v2",
+    "title": "Med-HALT: Medical Domain Hallucination Test for Large Language Models",
+    "authors": [
+      "Ankit Pal",
+      "Logesh Kumar Umapathi",
+      "Malaikannan Sankarasubbu"
+    ],
+    "year": 2023,
+    "abstract": "This research paper focuses on the challenges posed by hallucinations in large language models (LLMs), particularly in the context of the medical domain. Hallucination, wherein these models generate plausible yet unverified or incorrect information, can have serious consequences in healthcare applications. We propose a new benchmark and dataset, Med-HALT (Medical Domain Hallucination Test), designed specifically to evaluate and reduce hallucinations. Med-HALT provides a diverse multinational dat",
+    "pdf_url": "https://arxiv.org/pdf/2307.15343v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "query": "large language model self-verification hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2310.00034v2",
+    "arxiv_id": "2310.00034v2",
+    "title": "PB-LLM: Partially Binarized Large Language Models",
+    "authors": [
+      "Yuzhang Shang",
+      "Zhihang Yuan",
+      "Qiang Wu",
+      "Zhen Dong"
+    ],
+    "year": 2023,
+    "abstract": "This paper explores network binarization, a radical form of quantization, compressing model weights to a single bit, specifically for Large Language Models (LLMs) compression. Due to previous binarization methods collapsing LLMs, we propose a novel approach, Partially-Binarized LLM (PB-LLM), which can achieve extreme low-bit quantization while maintaining the linguistic reasoning capacity of quantized LLMs. Specifically, our exploration first uncovers the ineffectiveness of naive applications of",
+    "pdf_url": "https://arxiv.org/pdf/2310.00034v2",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "query": "large language model self-verification hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2407.04693v2",
+    "arxiv_id": "2407.04693v2",
+    "title": "ANAH-v2: Scaling Analytical Hallucination Annotation of Large Language Models",
+    "authors": [
+      "Yuzhe Gu",
+      "Ziwei Ji",
+      "Wenwei Zhang",
+      "Chengqi Lyu",
+      "Dahua Lin"
+    ],
+    "year": 2024,
+    "abstract": "Large language models (LLMs) exhibit hallucinations in long-form question-answering tasks across various domains and wide applications. Current hallucination detection and mitigation datasets are limited in domains and sizes, which struggle to scale due to prohibitive labor costs and insufficient reliability of existing hallucination annotators. To facilitate the scalable oversight of LLM hallucinations, this paper introduces an iterative self-training framework that simultaneously and progressi",
+    "pdf_url": "https://arxiv.org/pdf/2407.04693v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "query": "large language model self-verification hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2306.13549v4",
+    "arxiv_id": "2306.13549v4",
+    "title": "A Survey on Multimodal Large Language Models",
+    "authors": [
+      "Shukang Yin",
+      "Chaoyou Fu",
+      "Sirui Zhao",
+      "Ke Li",
+      "Xing Sun"
+    ],
+    "year": 2023,
+    "abstract": "Recently, Multimodal Large Language Model (MLLM) represented by GPT-4V has been a new rising research hotspot, which uses powerful Large Language Models (LLMs) as a brain to perform multimodal tasks. The surprising emergent capabilities of MLLM, such as writing stories based on images and OCR-free math reasoning, are rare in traditional multimodal methods, suggesting a potential path to artificial general intelligence. To this end, both academia and industry have endeavored to develop MLLMs that",
+    "pdf_url": "https://arxiv.org/pdf/2306.13549v4",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "query": "large language model self-verification hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2405.19266v4",
+    "arxiv_id": "2405.19266v4",
+    "title": "PediatricsGPT: Large Language Models as Chinese Medical Assistants for Pediatric Applications",
+    "authors": [
+      "Dingkang Yang",
+      "Jinjie Wei",
+      "Dongling Xiao",
+      "Shunli Wang",
+      "Tong Wu"
+    ],
+    "year": 2024,
+    "abstract": "Developing intelligent pediatric consultation systems offers promising prospects for improving diagnostic efficiency, especially in China, where healthcare resources are scarce. Despite recent advances in Large Language Models (LLMs) for Chinese medicine, their performance is sub-optimal in pediatric applications due to inadequate instruction data and vulnerable training procedures. To address the above issues, this paper builds PedCorpus, a high-quality dataset of over 300,000 multi-task instru",
+    "pdf_url": "https://arxiv.org/pdf/2405.19266v4",
+    "categories": [
+      "cs.CL"
+    ],
+    "query": "large language model self-verification hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/2308.16149v2",
+    "arxiv_id": "2308.16149v2",
+    "title": "Jais and Jais-chat: Arabic-Centric Foundation and Instruction-Tuned Open Generative Large Language Models",
+    "authors": [
+      "Neha Sengupta",
+      "Sunil Kumar Sahu",
+      "Bokang Jia",
+      "Satheesh Katipomu",
+      "Haonan Li"
+    ],
+    "year": 2023,
+    "abstract": "We introduce Jais and Jais-chat, new state-of-the-art Arabic-centric foundation and instruction-tuned open generative large language models (LLMs). The models are based on the GPT-3 decoder-only architecture and are pretrained on a mixture of Arabic and English texts, including source code in various programming languages. With 13 billion parameters, they demonstrate better knowledge and reasoning capabilities in Arabic than any existing open Arabic and multilingual models by a sizable margin, b",
+    "pdf_url": "https://arxiv.org/pdf/2308.16149v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "query": "large language model self-verification hallucination"
+  },
+  {
+    "id": "http://arxiv.org/abs/1012.2631v2",
+    "arxiv_id": "1012.2631v2",
+    "title": "Monte Carlo uncertainty estimation for wavelength calibration",
+    "authors": [
+      "Thang H. L.",
+      "Nguyen D. D.",
+      "Dung D. N."
+    ],
+    "year": 2010,
+    "abstract": "CIPM published the Supplement I for GUM in 2008 as not only an alternative approach to estimate the uncertainty for a given calibration measurement but also as a proper uncertainty estimation one, whenever any of the conditions imposed in GUM which must be satisfied does not hold [1, 2]. Before the introduction of the new approach in the Supplement I, namely Monte Carlo (MC) method, the GUM rules have been always applied even if in cases where the mentioned conditions were not fulfilled. After o",
+    "pdf_url": "https://arxiv.org/pdf/1012.2631v2",
+    "categories": [
+      "physics.data-an"
+    ],
+    "query": "LLM self-consistency calibration uncertainty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2301.09126v2",
+    "arxiv_id": "2301.09126v2",
+    "title": "Propagation of Linear Uncertainties through Multiline Thru-Reflect-Line Calibration",
+    "authors": [
+      "Ziad Hatab",
+      "Michael Ernst Gadringer",
+      "Wolfgang B\u00f6sch"
+    ],
+    "year": 2023,
+    "abstract": "This study proposes a linear approach for propagating uncertainties in the multiline thru-reflect-line (TRL) calibration method for vector network analyzers. The multiline TRL formulation we are proposing applies the law of uncertainty propagation as outlined in the ISO Guide to the Expression of Uncertainty in Measurement (GUM) to both measurement and model uncertainties. In addition, we conducted a Monte Carlo analysis using a combination of measured and synthetic data to model various uncerta",
+    "pdf_url": "https://arxiv.org/pdf/2301.09126v2",
+    "categories": [
+      "eess.SP",
+      "physics.app-ph"
+    ],
+    "query": "LLM self-consistency calibration uncertainty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2302.02622v1",
+    "arxiv_id": "2302.02622v1",
+    "title": "Uncertainty Calibration and its Application to Object Detection",
+    "authors": [
+      "Fabian K\u00fcppers"
+    ],
+    "year": 2023,
+    "abstract": "Image-based environment perception is an important component especially for driver assistance systems or autonomous driving. In this scope, modern neuronal networks are used to identify multiple objects as well as the according position and size information within a single frame. The performance of such an object detection model is important for the overall performance of the whole system. However, a detection model might also predict these objects under a certain degree of uncertainty. [...]\n  ",
+    "pdf_url": "https://arxiv.org/pdf/2302.02622v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "query": "LLM self-consistency calibration uncertainty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2206.10209v2",
+    "arxiv_id": "2206.10209v2",
+    "title": "Propagation of Measurement and Model Uncertainties through Multiline TRL Calibration",
+    "authors": [
+      "Ziad Hatab",
+      "Michael Gadringer",
+      "Wolfgang B\u00f6sch"
+    ],
+    "year": 2022,
+    "abstract": "In this work, we present a linear uncertainty (LU) propagation treatment of measurement and model uncertainties in multiline thru-reflect-line (TRL) calibration. The proposed method is in accordance with the ISO Guide to the Expression of Uncertainty in Measurement (GUM). We demonstrate with numerical simulation based on the Monte Carlo (MC) method that our proposed LU method delivers identical uncertainty as the MC method but in a more efficient way.",
+    "pdf_url": "https://arxiv.org/pdf/2206.10209v2",
+    "categories": [
+      "eess.SP",
+      "physics.app-ph"
+    ],
+    "query": "LLM self-consistency calibration uncertainty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2306.13063v2",
+    "arxiv_id": "2306.13063v2",
+    "title": "Can LLMs Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation in LLMs",
+    "authors": [
+      "Miao Xiong",
+      "Zhiyuan Hu",
+      "Xinyang Lu",
+      "Yifei Li",
+      "Jie Fu"
+    ],
+    "year": 2023,
+    "abstract": "Empowering large language models to accurately express confidence in their answers is essential for trustworthy decision-making. Previous confidence elicitation methods, which primarily rely on white-box access to internal model information or model fine-tuning, have become less suitable for LLMs, especially closed-source commercial APIs. This leads to a growing need to explore the untapped area of black-box approaches for LLM uncertainty estimation. To better break down the problem, we define a",
+    "pdf_url": "https://arxiv.org/pdf/2306.13063v2",
+    "categories": [
+      "cs.CL"
+    ],
+    "query": "LLM self-consistency calibration uncertainty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2207.01242v2",
+    "arxiv_id": "2207.01242v2",
+    "title": "Parametric and Multivariate Uncertainty Calibration for Regression and Object Detection",
+    "authors": [
+      "Fabian K\u00fcppers",
+      "Jonas Schneider",
+      "Anselm Haselhoff"
+    ],
+    "year": 2022,
+    "abstract": "Reliable spatial uncertainty evaluation of object detection models is of special interest and has been subject of recent work. In this work, we review the existing definitions for uncertainty calibration of probabilistic regression tasks. We inspect the calibration properties of common detection networks and extend state-of-the-art recalibration methods. Our methods use a Gaussian process (GP) recalibration scheme that yields parametric distributions as output (e.g. Gaussian or Cauchy). The usag",
+    "pdf_url": "https://arxiv.org/pdf/2207.01242v2",
+    "categories": [
+      "cs.LG"
+    ],
+    "query": "LLM self-consistency calibration uncertainty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2005.12496v6",
+    "arxiv_id": "2005.12496v6",
+    "title": "CRUDE: Calibrating Regression Uncertainty Distributions Empirically",
+    "authors": [
+      "Eric Zelikman",
+      "Christopher Healy",
+      "Sharon Zhou",
+      "Anand Avati"
+    ],
+    "year": 2020,
+    "abstract": "Calibrated uncertainty estimates in machine learning are crucial to many fields such as autonomous vehicles, medicine, and weather and climate forecasting. While there is extensive literature on uncertainty calibration for classification, the classification findings do not always translate to regression. As a result, modern models for predicting uncertainty in regression settings typically produce uncalibrated and overconfident estimates. To address these gaps, we present a calibration method fo",
+    "pdf_url": "https://arxiv.org/pdf/2005.12496v6",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "query": "LLM self-consistency calibration uncertainty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2002.00976v2",
+    "arxiv_id": "2002.00976v2",
+    "title": "Calibration Method and Uncertainty for the Primordial Inflation Explorer (PIXIE)",
+    "authors": [
+      "A. Kogut",
+      "D. J. Fixsen"
+    ],
+    "year": 2020,
+    "abstract": "The Primordial Inflation Explorer (PIXIE) is an Explorer-class mission concept to measure cosmological signals from both linear polarization of the cosmic microwave background and spectral distortions from a perfect blackbody. The targeted measurement sensitivity is 2--4 orders of magnitude below competing astrophysical foregrounds, placing stringent requirements on instrument calibration. An on-board blackbody calibrator presents a polarizing Fourier transform spectrometer with a known signal t",
+    "pdf_url": "https://arxiv.org/pdf/2002.00976v2",
+    "categories": [
+      "astro-ph.IM"
+    ],
+    "query": "LLM self-consistency calibration uncertainty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2206.00860v2",
+    "arxiv_id": "2206.00860v2",
+    "title": "Self-Consistency of the Fokker-Planck Equation",
+    "authors": [
+      "Zebang Shen",
+      "Zhenfu Wang",
+      "Satyen Kale",
+      "Alejandro Ribeiro",
+      "Amin Karbasi"
+    ],
+    "year": 2022,
+    "abstract": "The Fokker-Planck equation (FPE) is the partial differential equation that governs the density evolution of the It\u00f4 process and is of great importance to the literature of statistical physics and machine learning. The FPE can be regarded as a continuity equation where the change of the density is completely determined by a time varying velocity field. Importantly, this velocity field also depends on the current density function. As a result, the ground-truth velocity field can be shown to be the",
+    "pdf_url": "https://arxiv.org/pdf/2206.00860v2",
+    "categories": [
+      "cs.LG"
+    ],
+    "query": "LLM self-consistency calibration uncertainty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2505.03788v1",
+    "arxiv_id": "2505.03788v1",
+    "title": "Calibrating Uncertainty Quantification of Multi-Modal LLMs using Grounding",
+    "authors": [
+      "Trilok Padhi",
+      "Ramneet Kaur",
+      "Adam D. Cobb",
+      "Manoj Acharya",
+      "Anirban Roy"
+    ],
+    "year": 2025,
+    "abstract": "We introduce a novel approach for calibrating uncertainty quantification (UQ) tailored for multi-modal large language models (LLMs). Existing state-of-the-art UQ methods rely on consistency among multiple responses generated by the LLM on an input query under diverse settings. However, these approaches often report higher confidence in scenarios where the LLM is consistently incorrect. This leads to a poorly calibrated confidence with respect to accuracy. To address this, we leverage cross-modal",
+    "pdf_url": "https://arxiv.org/pdf/2505.03788v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "query": "LLM self-consistency calibration uncertainty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.10988v2",
+    "arxiv_id": "2012.10988v2",
+    "title": "Post-hoc Uncertainty Calibration for Domain Drift Scenarios",
+    "authors": [
+      "Christian Tomani",
+      "Sebastian Gruber",
+      "Muhammed Ebrar Erdem",
+      "Daniel Cremers",
+      "Florian Buettner"
+    ],
+    "year": 2020,
+    "abstract": "We address the problem of uncertainty calibration. While standard deep neural networks typically yield uncalibrated predictions, calibrated confidence scores that are representative of the true likelihood of a prediction can be achieved using post-hoc calibration methods. However, to date the focus of these approaches has been on in-domain calibration. Our contribution is two-fold. First, we show that existing post-hoc calibration methods yield highly over-confident predictions under domain shif",
+    "pdf_url": "https://arxiv.org/pdf/2012.10988v2",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "stat.ML"
+    ],
+    "query": "LLM self-consistency calibration uncertainty"
+  },
+  {
+    "id": "http://arxiv.org/abs/1304.1083v1",
+    "arxiv_id": "1304.1083v1",
+    "title": "Managing Uncertainty in Rule Based Cognitive Models",
+    "authors": [
+      "Thomas R. Shultz"
+    ],
+    "year": 2013,
+    "abstract": "An experiment replicated and extended recent findings on psychologically realistic ways of modeling propagation of uncertainty in rule based reasoning.  Within a single production rule, the antecedent evidence can be summarized by taking the maximum of disjunctively connected antecedents and the minimum of conjunctively connected antecedents.  The maximum certainty factor attached to each of the rule's conclusions can be sealed down by multiplication with this summarized antecedent certainty. He",
+    "pdf_url": "https://arxiv.org/pdf/1304.1083v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "query": "LLM self-consistency calibration uncertainty"
+  },
+  {
+    "id": "http://arxiv.org/abs/1903.09215v4",
+    "arxiv_id": "1903.09215v4",
+    "title": "Calibrated Top-1 Uncertainty estimates for classification by score based models",
+    "authors": [
+      "Adam M. Oberman",
+      "Chris Finlay",
+      "Alexander Iannantuono",
+      "Tiago Salvador"
+    ],
+    "year": 2019,
+    "abstract": "While the accuracy of modern deep learning models has significantly improved in recent years, the ability of these models to generate uncertainty estimates has not progressed to the same degree. Uncertainty methods are designed to provide an estimate of class probabilities when predicting class assignment.\n  While there are a number of proposed methods for estimating uncertainty, they all suffer from a lack of calibration: predicted probabilities can be off from empirical ones by a few percent o",
+    "pdf_url": "https://arxiv.org/pdf/1903.09215v4",
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "query": "LLM self-consistency calibration uncertainty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2205.07160v1",
+    "arxiv_id": "2205.07160v1",
+    "title": "Evaluating Uncertainty Calibration for Open-Set Recognition",
+    "authors": [
+      "Zongyao Lyu",
+      "Nolan B. Gutierrez",
+      "William J. Beksi"
+    ],
+    "year": 2022,
+    "abstract": "Despite achieving enormous success in predictive accuracy for visual classification problems, deep neural networks (DNNs) suffer from providing overconfident probabilities on out-of-distribution (OOD) data. Yet, accurate uncertainty estimation is crucial for safe and reliable robot autonomy. In this paper, we evaluate popular calibration techniques for open-set conditions in a way that is distinctly different from the conventional evaluation of calibration methods on OOD data. Our results show t",
+    "pdf_url": "https://arxiv.org/pdf/2205.07160v1",
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "query": "LLM self-consistency calibration uncertainty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2004.08463v2",
+    "arxiv_id": "2004.08463v2",
+    "title": "A Unified Calibration Framework for 21 cm Cosmology",
+    "authors": [
+      "Ruby Byrne",
+      "Miguel F. Morales",
+      "Bryna Hazelton",
+      "Michael Wilensky"
+    ],
+    "year": 2020,
+    "abstract": "Calibration precision is currently a limiting systematic in 21 cm cosmology experiments. While there are innumerable calibration approaches, most can be categorized as either `sky-based,' relying on an extremely accurate model of astronomical foreground emission, or `redundant,' requiring a precisely regular array with near-identical antenna response patterns. Both of these classes of calibration are inflexible to the realities of interferometric measurement. In practice, errors in the foregroun",
+    "pdf_url": "https://arxiv.org/pdf/2004.08463v2",
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO"
+    ],
+    "query": "LLM self-consistency calibration uncertainty"
+  },
+  {
+    "id": "http://arxiv.org/abs/2406.16167v1",
+    "arxiv_id": "2406.16167v1",
+    "title": "FS-RAG: A Frame Semantics Based Approach for Improved Factual Accuracy in Large Language Models",
+    "authors": [
+      "Harish Tayyar Madabushi"
+    ],
+    "year": 2024,
+    "abstract": "We present a novel extension to Retrieval Augmented Generation with the goal of mitigating factual inaccuracies in the output of large language models. Specifically, our method draws on the cognitive linguistic theory of frame semantics for the indexing and retrieval of factual information relevant to helping large language models answer queries. We conduct experiments to demonstrate the effectiveness of this method both in terms of retrieval effectiveness and in terms of the relevance of the fr",
+    "pdf_url": "https://arxiv.org/pdf/2406.16167v1",
+    "categories": [
+      "cs.CL"
+    ],
+    "query": "language model factual error detection verification"
+  },
+  {
+    "id": "http://arxiv.org/abs/2504.11108v2",
+    "arxiv_id": "2504.11108v2",
+    "title": "Benchmarking Vision Language Models on German Factual Data",
+    "authors": [
+      "Ren\u00e9 Peinl",
+      "Vincent Tischler"
+    ],
+    "year": 2025,
+    "abstract": "Similar to LLMs, the development of vision language models is mainly driven by English datasets and models trained in English and Chinese language, whereas support for other languages, even those considered high-resource languages such as German, remains significantly weaker. In this work we present an analysis of open-weight VLMs on factual knowledge in the German and English language. We disentangle the image-related aspects from the textual ones by analyzing accu-racy with jury-as-a-judge in ",
+    "pdf_url": "https://arxiv.org/pdf/2504.11108v2",
+    "categories": [
+      "cs.CL"
+    ],
+    "query": "language model factual error detection verification"
+  },
+  {
+    "id": "http://arxiv.org/abs/2508.19294v2",
+    "arxiv_id": "2508.19294v2",
+    "title": "Object Detection with Multimodal Large Vision-Language Models: An In-depth Review",
+    "authors": [
+      "Ranjan Sapkota",
+      "Manoj Karkee"
+    ],
+    "year": 2025,
+    "abstract": "The fusion of language and vision in large vision-language models (LVLMs) has revolutionized deep learning-based object detection by enhancing adaptability, contextual reasoning, and generalization beyond traditional architectures. This in-depth review presents a structured exploration of the state-of-the-art in LVLMs, systematically organized through a three-step research review process. First, we discuss the functioning of vision language models (VLMs) for object detection, describing how thes",
+    "pdf_url": "https://arxiv.org/pdf/2508.19294v2",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "query": "language model factual error detection verification"
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.08480v1",
+    "arxiv_id": "2512.08480v1",
+    "title": "Soft Inductive Bias Approach via Explicit Reasoning Perspectives in Inappropriate Utterance Detection Using Large Language Models",
+    "authors": [
+      "Ju-Young Kim",
+      "Ji-Hong Park",
+      "Se-Yeon Lee",
+      "Sujin Park",
+      "Gun-Woo Kim"
+    ],
+    "year": 2025,
+    "abstract": "Recent incidents in certain online games and communities, where anonymity is guaranteed, show that unchecked inappropriate remarks frequently escalate into verbal abuse and even criminal behavior, raising significant social concerns. Consequently, there is a growing need for research on techniques that can detect inappropriate utterances within conversational texts to help build a safer communication environment. Although large-scale language models trained on Korean corpora and chain-of-thought",
+    "pdf_url": "https://arxiv.org/pdf/2512.08480v1",
+    "categories": [
+      "cs.CL"
+    ],
+    "query": "language model factual error detection verification"
+  },
+  {
+    "id": "http://arxiv.org/abs/2504.09480v1",
+    "arxiv_id": "2504.09480v1",
+    "title": "Vision-Language Model for Object Detection and Segmentation: A Review and Evaluation",
+    "authors": [
+      "Yongchao Feng",
+      "Yajie Liu",
+      "Shuai Yang",
+      "Wenrui Cai",
+      "Jinqing Zhang"
+    ],
+    "year": 2025,
+    "abstract": "Vision-Language Model (VLM) have gained widespread adoption in Open-Vocabulary (OV) object detection and segmentation tasks. Despite they have shown promise on OV-related tasks, their effectiveness in conventional vision tasks has thus far been unevaluated. In this work, we present the systematic review of VLM-based detection and segmentation, view VLM as the foundational model and conduct comprehensive evaluations across multiple downstream tasks for the first time: 1) The evaluation spans eigh",
+    "pdf_url": "https://arxiv.org/pdf/2504.09480v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "query": "language model factual error detection verification"
+  },
+  {
+    "id": "http://arxiv.org/abs/1809.00626v1",
+    "arxiv_id": "1809.00626v1",
+    "title": "Deductive Verification of Unmodified Linux Kernel Library Functions",
+    "authors": [
+      "Denis Efremov",
+      "Mikhail Mandrykin",
+      "Alexey Khoroshilov"
+    ],
+    "year": 2018,
+    "abstract": "This paper presents results from the development and evaluation of a deductive verification benchmark consisting of 26 unmodified Linux kernel library functions implementing conventional memory and string operations. The formal contract of the functions was extracted from their source code and was represented in the form of preconditions and postconditions. The correctness of 23 functions was completely proved using AstraVer toolset, although success for 11 functions was achieved using 2 new spe",
+    "pdf_url": "https://arxiv.org/pdf/1809.00626v1",
+    "categories": [
+      "cs.SE"
+    ],
+    "query": "language model factual error detection verification"
+  },
+  {
+    "id": "http://arxiv.org/abs/2309.15098v2",
+    "arxiv_id": "2309.15098v2",
+    "title": "Attention Satisfies: A Constraint-Satisfaction Lens on Factual Errors of Language Models",
+    "authors": [
+      "Mert Yuksekgonul",
+      "Varun Chandrasekaran",
+      "Erik Jones",
+      "Suriya Gunasekar",
+      "Ranjita Naik"
+    ],
+    "year": 2023,
+    "abstract": "We investigate the internal behavior of Transformer-based Large Language Models (LLMs) when they generate factually incorrect text. We propose modeling factual queries as constraint satisfaction problems and use this framework to investigate how the LLM interacts internally with factual constraints. We find a strong positive relationship between the LLM's attention to constraint tokens and the factual accuracy of generations. We curate a suite of 10 datasets containing over 40,000 prompts to stu",
+    "pdf_url": "https://arxiv.org/pdf/2309.15098v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "query": "language model factual error detection verification"
+  },
+  {
+    "id": "http://arxiv.org/abs/2106.01072v2",
+    "arxiv_id": "2106.01072v2",
+    "title": "Evidence-based Factual Error Correction",
+    "authors": [
+      "James Thorne",
+      "Andreas Vlachos"
+    ],
+    "year": 2021,
+    "abstract": "This paper introduces the task of factual error correction: performing edits to a claim so that the generated rewrite is better supported by evidence. This extends the well-studied task of fact verification by providing a mechanism to correct written texts that are refuted or only partially supported by evidence. We demonstrate that it is feasible to train factual error correction systems from existing fact checking datasets which only contain labeled claims accompanied by evidence, but not the ",
+    "pdf_url": "https://arxiv.org/pdf/2106.01072v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "query": "language model factual error detection verification"
+  },
+  {
+    "id": "http://arxiv.org/abs/2111.14830v1",
+    "arxiv_id": "2111.14830v1",
+    "title": "Abusive and Threatening Language Detection in Urdu using Boosting based and BERT based models: A Comparative Approach",
+    "authors": [
+      "Mithun Das",
+      "Somnath Banerjee",
+      "Punyajoy Saha"
+    ],
+    "year": 2021,
+    "abstract": "Online hatred is a growing concern on many social media platforms. To address this issue, different social media platforms have introduced moderation policies for such content. They also employ moderators who can check the posts violating moderation policies and take appropriate action. Academicians in the abusive language research domain also perform various studies to detect such content better. Although there is extensive research in abusive language detection in English, there is a lacuna in",
+    "pdf_url": "https://arxiv.org/pdf/2111.14830v1",
+    "categories": [
+      "cs.CL"
+    ],
+    "query": "language model factual error detection verification"
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.00761v1",
+    "arxiv_id": "2401.00761v1",
+    "title": "The Earth is Flat? Unveiling Factual Errors in Large Language Models",
+    "authors": [
+      "Wenxuan Wang",
+      "Juluan Shi",
+      "Zhaopeng Tu",
+      "Youliang Yuan",
+      "Jen-tse Huang"
+    ],
+    "year": 2024,
+    "abstract": "Large Language Models (LLMs) like ChatGPT are foundational in various applications due to their extensive knowledge from pre-training and fine-tuning. Despite this, they are prone to generating factual and commonsense errors, raising concerns in critical areas like healthcare, journalism, and education to mislead users. Current methods for evaluating LLMs' veracity are limited by test data leakage or the need for extensive human labor, hindering efficient and accurate error detection. To tackle ",
+    "pdf_url": "https://arxiv.org/pdf/2401.00761v1",
+    "categories": [
+      "cs.SE",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "query": "language model factual error detection verification"
+  },
+  {
+    "id": "http://arxiv.org/abs/2210.12378v2",
+    "arxiv_id": "2210.12378v2",
+    "title": "Correcting Diverse Factual Errors in Abstractive Summarization via Post-Editing and Language Model Infilling",
+    "authors": [
+      "Vidhisha Balachandran",
+      "Hannaneh Hajishirzi",
+      "William W. Cohen",
+      "Yulia Tsvetkov"
+    ],
+    "year": 2022,
+    "abstract": "Abstractive summarization models often generate inconsistent summaries containing factual errors or hallucinated content. Recent works focus on correcting factual errors in generated summaries via post-editing. Such correction models are trained using adversarial non-factual summaries constructed using heuristic rules for injecting errors. However, generating non-factual summaries using heuristics often does not generalize well to actual model errors. In this work, we propose to generate hard, r",
+    "pdf_url": "https://arxiv.org/pdf/2210.12378v2",
+    "categories": [
+      "cs.CL"
+    ],
+    "query": "language model factual error detection verification"
+  },
+  {
+    "id": "http://arxiv.org/abs/2312.05434v1",
+    "arxiv_id": "2312.05434v1",
+    "title": "Beneath the Surface: Unveiling Harmful Memes with Multimodal Reasoning Distilled from Large Language Models",
+    "authors": [
+      "Hongzhan Lin",
+      "Ziyang Luo",
+      "Jing Ma",
+      "Long Chen"
+    ],
+    "year": 2023,
+    "abstract": "The age of social media is rife with memes. Understanding and detecting harmful memes pose a significant challenge due to their implicit meaning that is not explicitly conveyed through the surface text and image. However, existing harmful meme detection approaches only recognize superficial harm-indicative signals in an end-to-end classification manner but ignore in-depth cognition of the meme text and image. In this paper, we attempt to detect harmful memes based on advanced reasoning over the ",
+    "pdf_url": "https://arxiv.org/pdf/2312.05434v1",
+    "categories": [
+      "cs.CL"
+    ],
+    "query": "language model factual error detection verification"
+  }
+]

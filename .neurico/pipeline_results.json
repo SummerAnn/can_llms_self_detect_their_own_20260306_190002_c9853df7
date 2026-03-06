@@ -4,10 +4,14 @@
     "resource_finder": {
       "success": false,
       "completion_marker": null,
-      "outputs": {},
+      "outputs": {
+        "papers_dir": "/workspaces/can_llms_self_detect_their_own_20260306_190002_c9853df7/papers",
+        "datasets_dir": "/workspaces/can_llms_self_detect_their_own_20260306_190002_c9853df7/datasets",
+        "code_dir": "/workspaces/can_llms_self_detect_their_own_20260306_190002_c9853df7/code"
+      },
       "log_file": "/workspaces/can_llms_self_detect_their_own_20260306_190002_c9853df7/logs/resource_finder_claude.log",
       "transcript_file": "/workspaces/can_llms_self_detect_their_own_20260306_190002_c9853df7/logs/resource_finder_claude_transcript.jsonl",
-      "elapsed_time": 14.429412841796875
+      "elapsed_time": 175.84263134002686
     }
   },
   "work_dir": "/workspaces/can_llms_self_detect_their_own_20260306_190002_c9853df7"
