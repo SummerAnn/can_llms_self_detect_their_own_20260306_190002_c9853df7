@@ -1,0 +1,14 @@
+{
+  "success": false,
+  "stages": {
+    "resource_finder": {
+      "success": false,
+      "completion_marker": null,
+      "outputs": {},
+      "log_file": "/workspaces/can_llms_self_detect_their_own_20260306_190002_c9853df7/logs/resource_finder_claude.log",
+      "transcript_file": "/workspaces/can_llms_self_detect_their_own_20260306_190002_c9853df7/logs/resource_finder_claude_transcript.jsonl",
+      "elapsed_time": 14.429412841796875
+    }
+  },
+  "work_dir": "/workspaces/can_llms_self_detect_their_own_20260306_190002_c9853df7"
+}
